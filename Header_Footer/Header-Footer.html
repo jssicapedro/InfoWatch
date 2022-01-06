@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Cv Sandrina Pedro</title>
+
+</head>
+
+<body>
+	<header id="header" class="border-blue">
+
+        <div id="upper_header" class="border container">
+            <div id="logo" class="border">
+                <a href="index.html">
+                    <img src="img/Logotipo2.svg" alt="Logotipo" height="25px"  />
+                </a>
+            </div>
+
+            <div id="menu" class="border xs-hide" >
+                <a href="javascript:showSubmenu()" class="menu-link" > Tratamentos </a>
+                
+            </div>
+
+            <div id="menu-right">
+                <a href="#" class="menu-link xs-hide">Sobre nós</a>
+                <a href="#" class="menu-link xs-hide">Contactos</a>
+                <div id="menu2" class="border">
+                    ​<i id="menu-icon" class="icon-menu" onclick="showMobileMenu()"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <ul id="submenu-tratamentos" class="border xs-hide" style="display: none;">
+            <li><a href="tratamentoRosto.html">Rosto</a></li>
+            <li><a href="#">Corpo</a></li>
+            <li><a href="#">Cabeleireiro & Estética</a></li>
+            <li><a href="#">Depilação a laser</a></li>
+        </ul>
+
+        
+        <div id="menu-mobile" style="display: none;">
+            <ul id="main-mobile-menu" class="border">
+                <li><a href="javascript:showMobileSubmenuTratamentos()"> Tratamentos </a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+            <ul id="submenu-mobile-tratamentos" class="border" style="display: none;">
+                <li><a href="tratamentoRosto.html" >Rosto</a></li>
+                <li><a href="#">Corpo</a></li>
+                <li><a href="#">Cabeleireiro & Estética</a></li>
+                <li><a href="#">Depilação a laser</a></li>
+            </ul>
+        </div>
+
+    
+	</header>
+
+	<footer>
+            <section id="footer" class="border-blue">
+            <div class="footer xs-flex-column container">
+                <div class="logofooter">
+                    <img src="img/Logotipo1.svg" alt="Logotipo" width="200px"  />
+                </div>
+                <div class="contactosfooter xs-width-100">
+                    <h5 class="border">Contactos</h5>
+                    <ul>
+                        <li class="border">
+                            ​<i class="icon-phone"></i>
+                            911 111 111
+                        </li>
+                        <li class="mt-1">
+                            ​<i class="icon-email"></i>
+                            sandrina@bellisima.pt
+                        </li>
+                        <li class="mt-1">
+                            ​<i class="icon-local"></i>
+                            Leiria
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="horariofooter xs-width-100 border">
+                    <h5>Horário</h5>
+                    <p> Seg - sab </p>
+                    <p> 9:00 - 19:00 </p>    
+                        
+                </div>
+                <div class="siga-nos xs-width-100 border">
+                    <h5>Siga-nos nas redes sociais</h5>
+                    ​<i class="icon-facebook"></i>
+                    ​<i class="icon-instagram"></i>
+
+                </div>
+            </div>
+            <div class="border">
+                © 2021 Bellissima
+            </div>
+        </section>
+	</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

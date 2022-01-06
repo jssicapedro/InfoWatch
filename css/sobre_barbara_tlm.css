@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --titulosSobre: 'Roboto', sans-serif;;
+    --textoSobre: 'Rambla', sans-serif;;
+    --fundoSobre: #E5E5E5;
+    --fundoImagSobre: rgba(222, 173, 99, 0.66);
+    --fundoNomeTabelaSobre: rgba(204, 152, 78, 1);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: grey; 
+}
+
+html, body{
+    max-width: 1366px;
+    max-height: 667px;
+    width: 95%;
+    height:100%;
+    background-color: var(--fundoSobre);
+    overflow: hidden;
+    margin: auto;
+}
+
+nav#menuPrincipal ul{
+    background-color: rgb(207, 160, 93);
+}
+
+nav#menuPrincipal ul li{
+    display: inline-block;
+    margin: 8px 4px;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+section.foto{
+    float: left;
+    background-image: url("../imagens/eu.jpeg");
+    height: 100%;
+    width: 25%;
+    margin: 0px 0px 0px 200px;
+}
+
+
+section h4{
+    font-size: 2em;
+    font-family: var(--titulosSobre);
+    font-style: italic;
+    font-weight: bold;
+    background-color: var(--fundoNomeTabelaSobre);
+    padding: 15px;
+    text-align: center;
+    margin-top: 485px;
+}
+
+section div{
+    padding: 0% 7%;
+}
+
+section a{
+    text-decoration: none;
+    text-align: center;
+    padding: 0% 11%;
+}
+
+section img{
+    width: 60px;
+}
+
+article{
+    margin: 0% 13% 0% 45%;
+}
+
+article h1{
+    font-size: 2em;
+    font-family: var(--titulosSobre);
+}
+
+article h2{
+    font-family: var(--titulosSobre);
+    font-size: 1.3em;
+    letter-spacing: 0.23em;
+    height: 30px;
+    line-height: 30px;
+}
+
+article p{
+    text-align: justify;
+    font-size: 1em;
+    font-family: var(--textoSobre);
+}
+
+article table tr td{
+    padding-left: 10px;
+}
+
+article table tr td button{
+    position: static;
+    margin-left: 45%;
+    width: 147px;
+    height: 30px;
+    border-radius: 13px;
+    background: linear-gradient(139deg, rgba(255,145,0,0.4374124649859944) 45%, rgba(75,9,121,0.4206057422969187) 100%);
+    border: none;
+    box-shadow: 2px 2px 6px 0px grey;
+}
+
+article table tr td button.especial{
+margin-left: 67%;
+}
+
+article table tr td button a{
+    text-decoration: none;
+    color: black;
+}
+
+article table tr td button:hover{
+    height: 40px;
+}
+
+@media (max-width:500px) {
+    
+    nav#menuPrincipal ul{
+        background-color: rgb(207, 160, 93);
+        height: 50px;
+    }
+
+    nav#menuPrincipal ul li{
+        margin: 8px 1px;
+        padding: 0.3 px;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    section.foto{
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50%;
+        width: 25%;
+        margin-left: 5px;
+    }
+    
+    section h4{
+        font-size: 2em;
+    }
+    
+    article h1{
+        font-size: 1.5em;
+    }
+    
+    article h2{
+        font-size: 1em;
+    }
+
+    article p{
+        font-size: 0.8em;
+        padding-top: 30px;
+    }
+
+    article table tr td{
+        padding-left: 3px;
+        font-size: 0.8em;
+    }
+
+    article table tr td button{
+        position: relative;
+        margin-left: 45%;
+        width: 147px;
+        height: 30px;
+        border-radius: 13px;
+    }
+
+    article table h2{
+        font-size: 0.8em;
+    }
+}

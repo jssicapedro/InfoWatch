@@ -1,0 +1,49 @@
+.banner img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: flex;
+}
+
+.conteudo{
+    text-align: justify;
+    width: 50%;
+    float: left;
+    margin: 55px;
+}
+
+.imagem{
+    /* float: right;
+    position: relative; */
+    margin-bottom: -81px;
+}
+
+.imagem img{
+    position: relative;
+    /*margin: 0px 110px;*/
+    top: -100px; 
+}
+
+@media screen and (max-width:500px){
+    .conteudo{
+        width: 100%;
+        margin: 0;
+    }
+
+    .imagem{
+        margin: 0;
+    }
+
+    .imagem img{
+        width: 100%;
+        margin: 0px;
+        top: 0px;
+    }
+    
+    #rodapeArcade{
+        display: flex; 
+        height: 100px;
+        margin: 0px;
+    }
+}

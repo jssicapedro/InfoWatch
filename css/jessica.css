@@ -1,0 +1,225 @@
+aside{
+    height: 680px;
+    margin-right: 5%;
+    width: 25%;
+    float: left;
+    position:relative;
+}
+
+aside h1{
+    font-family: var(--titulosSobre);
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+}
+
+#imgPessoal img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/* div#redes */
+div#redes{
+    position:absolute;
+    display: flex;
+    justify-content: end;
+    margin: 20px 30%;
+    bottom: 10px;
+}
+
+div#redes a{
+    text-decoration: none;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+div#redes a img{
+    margin: auto;
+    width: 20px;
+}
+
+/*article*/
+article{
+    display: block;
+}
+
+article h1{
+    font-size: 1vw;
+    padding-top: 5%;
+    font-size: 2em;
+    font-family: var(--titulosSobre);
+}
+
+article h2{
+    font-family: var(--titulosSobre);
+    font-size: 16pt;
+    letter-spacing: 0.23em;
+    height: 30px;
+    line-height: 30px;
+}
+
+article p{
+    text-align: justify;
+    font-size: 1em;
+    font-family: var(--textoSobre);
+}
+
+table{
+    width: 50%;
+}
+
+#btn {
+    width: 100%;
+}
+
+article table tr td button{
+    position: relative;
+    margin-left: 100%;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 13px;
+    background: linear-gradient(139deg, rgba(255,145,0,0.4374124649859944) 45%, rgba(75,9,121,0.4206057422969187) 100%);
+    border: none;
+    box-shadow: 2px 2px 6px 0px grey;
+}
+
+article table tr td button a{
+    text-decoration: none;
+    color: black;
+}
+
+article table tr td button:hover{
+    height: 40px;
+}
+
+#extra{
+    max-width: 1100px;
+    display: contents;
+}
+
+#extra tr td{
+    padding-top: 5%;
+}
+
+article table#extra tr td img{
+    width: 50px;
+    padding: 13px;
+    float: left;
+}
+
+article table#extra tr td p{
+    text-align: inherit;
+}
+
+article table#extra tr td p a{
+    color: var(--linksite);
+    text-decoration: none;
+}
+
+article table#extra tr td p a:hover{
+    color: var(--linksitehover);
+    text-decoration: underline;
+}
+
+#imgPessoal2{
+    display: none;
+}
+.rodapeSobreMim{
+    position: absolute;
+    height:140px;
+    width: 100%;
+    background-color: #241205;
+    color: whitesmoke; 
+    bottom: 0px;
+    margin-bottom: 20px; 
+    /* margin-top: 10px; */
+}
+
+@media screen and (max-width:1000px){
+    
+    aside{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        display: contents;
+    }
+
+    .sobre_mim{
+        margin: 0 0 20px 0px;
+        width: 100%;
+        height: 180px;
+        background-color: grey;
+    }
+
+    #imgPessoal{
+        margin: 20px;
+        position: absolute;
+    }
+
+    #imgPessoal img{
+        display: flex;
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0px -113px;
+    }
+
+    /*article*/
+    article{
+        margin: 0 45px;
+        display: inline-block;
+    }
+
+    article h1{
+        margin-top: -23px;
+        font-size: 12pt;
+    }
+    
+    article h2{
+        font-size: 10pt;
+    }
+    
+    article p, table{
+        font-size: 10pt;
+    }
+    
+    table{
+        width: 100%;
+    }
+
+    td#btn{
+        display: none;
+    }
+    
+    div#redes{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+    }
+    
+    div#redes a img{
+        width: 20px;
+    }
+
+    #extra tr td {
+        padding-top: 0;
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    article table#extra tr td img{
+        width: 40px;
+        display: block;
+        margin: 0%;
+        height: fit-content;
+    }
+    
+    .rodapeSobreMim{
+        position: relative;
+        height: 100px;
+        margin-top: 16px;
+    }
+}

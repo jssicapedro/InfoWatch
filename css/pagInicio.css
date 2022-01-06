@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'quantium';
+    src: url(../fontes/Quantum.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1{
+    font-size: 4vh;
+}
+
+button{
+    cursor: pointer;
+    box-shadow: 4px 5px 4px rgb(0 0 0 / 25%);
+}
+
+
+.conteudo-secundario-escrito, .conteudo-terceario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteudo-secundario-escrito-subtitulo, .conteudo-terceario-subtitulo, .conteudo-quartenario-subtitulo{
+    font-weight: 600;
+    font-size: 3vh;
+    color: orange;
+}
+
+.conteudo-secundario-escrito-btn, .conteudo-terceario-btn, .conteudo-quartenario-btn{
+    font-family: Roboto, sans-serif;
+    background-color: #eb9650;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.cabecalho {
+    background-color: rgb(205 146 86);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 3vh;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;/* espaçamento entre os elementos */
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    font-family: 'Rambla', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+    color: #ffa052;
+}
+
+.cabecalho-menu-item:active{
+    color: #ce7f3e;
+}
+
+.conteudo {
+    max-width: 1300px;
+    margin: auto;
+    /* margin-top: 20px; */
+    /* border-top: 0.4px solid #fff2e747; */
+}
+
+.conteudo-principal{
+    background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url(../img/index/image20.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    background-attachment: fixed;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'quantium', sans-serif;
+    font-size: 40px;
+    display: flex;
+    margin-top: 3.5vh;
+    padding: 40px 300px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 48px 10px;
+    color: white;
+}
+
+.conteudo-principal-subtitulo{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.conteudo-principal-btn{
+    cursor: pointer;
+    background-color: #ECD6C4;
+    color: #2F2325;
+    width: 33hw;
+    height: 6vh;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 0 2vw;
+}
+
+.conteudo-secundario{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.conteudo-secundario-escrito-texto{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.conteudo-secundario-img{
+    height: 50vh;
+}
+
+.conteudo-terceario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo-quartenario{
+    background-image: url(../img/index/4.svg);
+    background-position: center center;
+    height: 600px;
+}
+
+.conteudo-quartenario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.conteudo-quartenario-escrito-subtitulo{
+    color: black;
+    margin-top: 5em;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+.conteudo-quartenario-escrito-texto{
+    color: white;
+}
+
+footer{
+    background-color: rgb(194, 126, 1);
+    height: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .conteudo-principal-subtitulo{
+        margin: 0 50px;
+        font-size: 20px;
+    }
+    .conteudo-principal-btn{
+        height: 5vh;
+        font-size: 18px;
+    }
+    .conteudo-secundario{
+        margin: 0;
+        text-align: center;
+        background-color: rgba(255, 166, 0, 0.233);
+    }
+    .conteudo-secundario-escrito-texto{
+        text-align: start;
+        padding: 0 15px;
+        font-size: 16px;
+    }
+    .conteudo-secundario-img{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+nav{
+    margin-top: -300px;
+    position: fixed;
+    font-size: 15pt;
+
+}
+ul{
+    margin: 0px;
+}
+.menu{
+
+    margin-left: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    line-height: 60px;
+    width: 90%;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.25s;
+} 
+.premio{
+    position: absolute;
+    right: 0px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.menu li:hover{
+    background-color: rgb(219, 97, 15);
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+}
