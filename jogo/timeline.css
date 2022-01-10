@@ -27,6 +27,26 @@ p a {
     font-weight: 600;
 }
 
+.ecra-1{
+    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 600px;
+    position: relative;
+}
+
+.ecra-1 h1{
+    position: absolute;
+}
+
+
 .warpper{
     max-width: 1080px;
     margin: 50px auto;
