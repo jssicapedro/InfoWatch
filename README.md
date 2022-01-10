@@ -2,7 +2,7 @@
  
 Jéssica:
 historia (pontos no tempo e colocar anos)
-sectio com imagem a dizer historia e só ao clicar é que passa para o conteudo em si
+section com imagem a dizer historia e só ao clicar é que passa para o conteudo em si
 
 
 
