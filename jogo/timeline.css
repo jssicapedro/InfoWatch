@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.border{
+    border: 1px solid blue;
+}
+
 body{
     height: 100%;
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
@@ -28,7 +32,7 @@ p a {
 }
 
 .ecra-1{
-    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
+    background-image: linear-gradient(#9b96779a,rgb(0 0 0 / 61%)), url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
     background-color: wheat;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,8 +51,9 @@ p a {
 }
 
 .ecra-1 h1{
+    font-size: 2em;
     padding: 15px;
-    background-color: #00000025;
+    margin: auto;
 }
 
 
@@ -59,7 +64,7 @@ p a {
 }
 .warpper .center-line{
     position: absolute;
-    height: calc(100% + 456px);
+    height: 98%;
     width: 2px;
     background-color: white;
     left: 50%;
@@ -81,8 +86,8 @@ p a {
     background-color: white;
     border-radius: 5px;
     width: calc(50% - 40px);
-    padding: 25px;
     position: relative;
+    border-radius: 15px 15px  0 0;
 }
 
 .warpper .row section::before{
@@ -110,18 +115,31 @@ p a {
     justify-content: space-between;
 }
 
-.row section .details .title{
+.details{
+    border-radius: 15px 15px  0 0;
+    background-color: #CF6C11;
+    height: 50px;
+}
+
+.title{
+    color: white;
     font-size: 22px;
     font-weight: 600;
+    margin: auto;
+    text-transform: uppercase;
 }
 
 .row section p{
-    margin: 10px 0 17px 0;
+    padding: 25px 25px;
+    line-height: 150%;
+    padding-bottom: 1px;
+    
 }
 
 .row section .bottom{
     display: flex;
     flex-direction: column;
+    margin: 30px 0;
 }
 
 .row section .bottom a{
@@ -136,7 +154,8 @@ p a {
 }
 
 .row section .bottom a:hover{
-    color: #ce420f;
+    transform: scale(1.05);
+    box-shadow: 3px 5px 10px 0px #0000007a;
 }
 
 .icon{

@@ -1,9 +1,7 @@
 # InfoWatch
  
 Jéssica:
-historia (pontos no tempo e colocar anos)
-section com imagem a dizer historia e só ao clicar é que passa para o conteudo em si
-
+historia (terminar faces da historia)
 
 
 
