@@ -28,7 +28,7 @@ p a {
 }
 
 .ecra-1{
-    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
+    background-image: linear-gradient(#9b96779a,rgb(0 0 0 / 61%)), url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
     background-color: wheat;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,8 +47,9 @@ p a {
 }
 
 .ecra-1 h1{
+    font-size: 2em;
     padding: 15px;
-    background-color: #00000025;
+    margin: auto;
 }
 
 
