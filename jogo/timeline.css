@@ -64,7 +64,7 @@ p a {
 }
 .warpper .center-line{
     position: absolute;
-    height: 98%;
+    height: 2500px;
     width: 2px;
     background-color: white;
     left: 50%;
@@ -132,14 +132,18 @@ p a {
 .row section p{
     padding: 25px 25px;
     line-height: 150%;
-    padding-bottom: 1px;
+    padding-bottom: 20px;
     
+}
+
+.row section.texto-sem-btn{
+    padding-bottom: 30px;
 }
 
 .row section .bottom{
     display: flex;
     flex-direction: column;
-    margin: 30px 0;
+    margin-bottom: 15px;
 }
 
 .row section .bottom a{
@@ -176,8 +180,8 @@ p a {
 
 @media (max-width:750px){
     .warpper .center-line{
-        left: 30px;
-        height: calc(100% + 750px);
+        left: 40px;
+        height: 2350px;
     }
 
     .warpper .row{
@@ -191,4 +195,17 @@ p a {
     .row-1 section::before{
         left: -7px;
     }
+
+    .icon{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .row-1 section::before{
+       left: -7px;
+   }
+
+   .row-1 section .icon{
+       left: -60px;
+   }
 }
