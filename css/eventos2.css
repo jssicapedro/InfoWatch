@@ -89,3 +89,48 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
+
+@media screen and (max-width:500px){
+    div#Main h1{
+        font-family: quantium, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        text-align: center;
+    } 
+    div#Main h2{
+        margin-left: 22.5%;
+        margin-right: auto;
+        width: 80%;
+    } 
+    section.jogo h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 22.5%;
+        width: 40%;
+    }
+    
+    section.jogo1 h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 8.5%;
+        width: 80%;
+    }
+    section.jogo{
+        font-family: roboto, sans-serif;
+        height: 380px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    
+      section.jogo1{
+        font-family: roboto, sans-serif;
+        height: 380px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+      }
+}
