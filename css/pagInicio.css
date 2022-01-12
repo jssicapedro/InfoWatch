@@ -22,17 +22,18 @@ h1{
 
 button{
     cursor: pointer;
-    box-shadow: 4px 5px 4px rgb(0 0 0 / 25%);
 }
 
-p{
-    margin: 0 20px;
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 5px 4px rgb(0 0 0 / 25%);
 }
 
 .conteudo-secundario-escrito, .conteudo-quartenario-escrito{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin: 0 20px;
 }
 
 .conteudo-secundario-escrito-subtitulo, .conteudo-quartenario-escrito-subtitulo{
@@ -41,7 +42,7 @@ p{
     color: black;
 }
 
-.conteudo-secundario-escrito-btn, .conteudo-terceario-btn, .conteudo-quartenario-btn{
+.conteudo-secundario-escrito-btn, .conteudo-quartenario-btn{
     font-family: Roboto, sans-serif;
     background-color: #eb9650;
     border-radius: 20px;
@@ -50,6 +51,8 @@ p{
     font-weight: 600;
     margin: 0 20px;
 }
+
+
 
 .conteudo {
     max-width: 1350px;
