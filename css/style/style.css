@@ -3,54 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-    :root{
-        --titulosSobre: quantium, sans-serif;
-        --textoSobre: 'Rambla', sans-serif;
-        --fundoSobre: #E5E5E5;
-        --fundoImagSobre: rgba(222, 173, 99, 0.66);
-        --fundoNomeTabelaSobre: rgba(204, 152, 78, 1);
-        --linksite: rgb(134, 10, 128);
-        --linksitehover: rgb(88, 7, 84);
-    }
-
-    @font-face {
-        font-family: quantium;
-        src: url(../fontes/Quantum.otf);
-    }
-
-
-    body{
-        background-color: #d4d4d4;
-        /* max-width: 1100px; */
-    }
-
-
-    head{
-        width: 100%;
-        display: block;
-    }
-
-    .border{
-        border: 1px solid red;
-    }
-
-    h1{
-        font-size: 60px;
-        color: #F7941D;
-        text-align: center;
-    }
-
-    h2{
-        font-size: 50px;
-        text-align: left;
-    }
-
-    h3{
-        font-family: var(--titulosSobre);
-        font-size: 40px;
-        color: #a14c13;
-        text-align: center;
-    }
+    
 
 /************* NAV BAR *************/
     nav{
@@ -98,17 +51,17 @@
     }
 
 /************* MAIN *************/
-    main{
+   /*  main{
         max-width: 1100px;
         align-content: center;
         margin: 0% auto;
-    }
+    } */
 
 /************* ASIDE *************/
 
 
 /************* FOOTER *************/
-    footer{
+ /*    footer{
         position: absolute;
         height:140px;
         width: 100%;
@@ -134,7 +87,7 @@
     footer address ul{
         font-size: 12pt;
         list-style: none;
-    }
+    } */
 
 
 
@@ -295,22 +248,23 @@
         display: block;
     }
 
-    article h1{
+    /* article */ h1{
         font-size: 1vw;
         padding-top: 5%;
         font-size: 2em;
         font-family: var(--titulosSobre);
     }
 
-    article h2{
+    /* article  */h2{
         font-family: var(--titulosSobre);
+        text-align: center;
         font-size: 16pt;
         letter-spacing: 0.23em;
         height: 30px;
         line-height: 30px;
     }
 
-    article p{
+    /* article */ p{
         text-align: justify;
         font-size: 1em;
         font-family: var(--textoSobre);
@@ -324,7 +278,7 @@
         width: 100%;
     }
 
-    article table tr td button{
+    /* article table tr td */ button{
         position: relative;
         margin-left: 100%;
         width: 50%;
@@ -336,12 +290,12 @@
         box-shadow: 2px 2px 6px 0px grey;
     }
 
-    article table tr td button a{
+    /* article table tr td button */ a{
         text-decoration: none;
         color: black;
     }
 
-    article table tr td button:hover{
+    /* article table tr td */ button:hover{
         height: 40px;
     }
 
@@ -418,11 +372,6 @@
         text-align: center;
     }
 
-    div.equipa{
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     div#caixaSobre{
         border-radius: 30px 0px;
@@ -463,46 +412,6 @@
 
 
     /**** SOBRE ****/
-    div.descEquipa div{
-        font-size: 14pt;
-        padding: 8% 10% 3% 10%;
-    }
-
-    div.descEquipa{
-        height: 15%;
-        width: 100%;
-        float: none;
-        margin: 0%;
-    }
-    
-    .descricaoElemt p,  .descricaoElemt h2{
-        font-size: 12pt;
-    }
-
-    div.descEquipa div h1{
-        margin: 0%;
-    }
-
-    div.inicio{
-        margin-top: 0px;
-    }
-    
-    div.inicioSobre{
-        display: none;
-    }
-
-    .equipaImg{
-        width: 385px;
-        margin-top: 2%;
-    }
-
-    .equipaImg img{
-        width: 77%;
-    }
-
-    div.tudo{
-        margin: 2% 2%;
-    }
 
 
     /**** CVJESSICA ****/

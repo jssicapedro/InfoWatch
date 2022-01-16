@@ -11,13 +11,7 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    margin: auto;
-}
-
-
-.titulo_sobre, texto_sobre{
-    text-align: center;
-    
+    margin: auto; 
 }
 
 .descEquipa-img img{
@@ -25,42 +19,20 @@
     border-radius: 5px 20px;
 }
 
-
-
-
-main.sobre{
-    max-width: 1500px;
-}
-
-/* div.descEquipa{
-    width: 800px;
-    height: 440px;
-    margin-bottom: 20px;
-    float: left;
-} 
-
 div.inicio{
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 }
 
-/* div.descEquipa div{
-    text-align: justify;
-    font-size: 16pt;
-    padding:  12%;
-} 
-
-div.inicioSobre{
-    height: 440px;
-    margin-bottom: 20px;
-}
 div.inicioSobre img{
     width: 40%;
     float: right;
     padding-right: 5%;
-}*/
+}
 
 .tudo{
-    width: 300px;
+    width: 230px;
     height: 100%;
     margin: 2% 2%;
 }
@@ -103,53 +75,29 @@ div.equipa{
     line-height: 0.1;
 }
 
-
+.tudo:hover{
+    transform: scale(1.1);
+}
 
 
 @media screen and (max-width:500px){
-    
-    h1{
-        font-size: 1.1em;
-    }
-
-    div.descEquipa div{
-        font-size: 14pt;
-        padding: 8% 10% 3% 10%;
-    }
-
     div.descEquipa{
         height: 15%;
         width: 100%;
         float: none;
-        margin: 0%;
+        margin: 0;
     }
     
+    .descEquipa-img img{
+        width: 100%;
+    }
+
     .descricaoElemt p,  .descricaoElemt h2{
         font-size: 12pt;
     }
 
-    div.descEquipa div h1{
-        margin: 0%;
-    }
-
     div.inicio{
-        margin-top: 0px;
+        flex-direction: column;
     }
     
-    div.inicioSobre{
-        display: none;
-    }
-
-    .equipaImg{
-        width: 385px;
-        margin-top: 2%;
-    }
-
-    .equipaImg img{
-        width: 77%;
-    }
-
-    div.tudo{
-        margin: 2% 2%;
-    }
 }
