@@ -51,58 +51,7 @@ h3{
     color: #a14c13;
     text-align: center;
 }
-/* ****************************************************************************
-    nav bar
-*****************************************************************************/
-nav{
-    margin-top: 15px;
-    height: 80px;
-    background-color: #110802;
-}
 
-img.logo{
-    cursor: pointer;
-    display: flex;
-    position: absolute;
-    float: left;
-    height: 80px;
-    width: 140px;
-    left: 5%;
-    margin: 0;
-}
-
-/* .logo{
-    width: 50px;
-    margin-left: 10%;
-} */
-
-nav ul{
-    width: 80%;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    list-style: none;
-    margin: auto;
-}
-
-nav ul li{
-    display: inline;
-    padding: 0px 2%;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav ul li a:hover{
-    color: black;
-}
-
-nav div#menu img{
-    display: none;
-}
 
 /* main */
 main{
@@ -208,92 +157,19 @@ div#voltar a{
 
 
 @media screen and (max-width:500px){   /* 500px */
-    /* menu??? */
-    main{
-        margin: 0 20px;
-    }
-
     html{
         overflow-x: hidden; 
         overflow-y: scroll;
     }
 
-    .logo{
-        width: 20%;
-        margin-left: 10%;
-        float: left;
+    main{
+        margin: 0 20px;
     }
 
-    nav ul{
-        display: none;
-    }
-
-    /* nav ul li{
-        display: inline;
-        padding: 0px 10px;
-        font-size: 10pt;
-    } 
-
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-
-    nav ul li a:hover{
-        color: black;
-    }
-    nav div#menu img{
-        display: block;
-        width: 40px;
-        float: right;
-        cursor: pointer;
-        margin-top: 7px;
-        margin-right: 5%; 
-    }*/
-
-    /* sobre mim*/
+    
     h1{
         text-align: center;
     }
 
-    div.equipa{
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    div#caixaSobre{
-        border-radius: 30px 0px;
-        width: 40%;
-        height: 30%;
-    }
-
-    footer{
-        position: relative;
-        height: 100px;
-        margin-top: 16px; 
-    }
-    
-
-    /* sobre jéssica */
 
 }
-
-/* *****************************************************************************
-    duvidas
-*****************************************************************************
-
-/* 
-    resolver img das redes em baixo (l.91 - 100)
-    resolver menu para tlm (l.263)
-    resolver nome do cv
-    resolver img da lista(dps de download cv) 
-    resolver espaçamento entre a img e o footer
-*/
-
-/* 
-    página sobre  
-    h1 (tlm)
-    imagem 
-*/
