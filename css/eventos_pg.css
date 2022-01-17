@@ -2,7 +2,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -50%);
 
     height: 500px;
     width: 80vw;
@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    position: absolute;
 }
 
 article{
@@ -41,6 +40,10 @@ article:hover  .p_evento{
 a{
     text-decoration: none;
     text-align: center;
+}
+
+a::after{
+    content: none;
 }
 
 img{
