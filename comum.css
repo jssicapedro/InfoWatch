@@ -7,22 +7,21 @@
 }
 
 :root{
-    --titulosSobre: quantium, sans-serif;
-    --textoSobre: 'Rambla', sans-serif;
-    --fundoSobre: #E5E5E5;
-    --fundoImagSobre: rgba(222, 173, 99, 0.66);
-    --fundoNomeTabelaSobre: rgba(204, 152, 78, 1);
-    --linksite: rgb(134, 10, 128);
-    --linksitehover: rgb(88, 7, 84);
+    --TodosTitulos: 1.5em quantium, sans-serif;
+    --TodosSubTitulos: 1.2em quantium, sans-serif;
+    --TodosSubSubTitulos: 1.1em quantium, sans-serif;
+    --texto: 1em 'Roboto', sans-serif;
+    --fundo: #0636d318;
+    --linkHover: rgb(214, 143, 10);
 }
 
 body{
-    background-color: #d4d4d4;
     max-width: 1200px;
+    background-color: var(--fundo);
     margin: auto;
 }
 
-head{
+header{
     width: 100%;
     display: block;
 }
@@ -32,29 +31,39 @@ head{
 }
 
 h1{
-    font-size: 60px;
-    color: #F7941D;
+    font:var(--TodosTitulos);
     text-align: center;
+    color: orange;
 }
 
 h2{
-    font-size: 50px;
-    text-align: center;
+    font:var(--TodosSubTitulos);
+    color: rgb(219, 138, 45);
+    text-align: left;
 }
 
 h3{
-    font-family: sans-serif;
-    font-size: 40px;
-    color: #a14c13;
+    font: var(--TodosSubSubTitulos);
     text-align: center;
 }
 
 /* main */
 main{
-    max-width: 1100px;
-    /* display: contents; */
     align-content: center;
     margin: 0% auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a::after{
+    content: "\1F517";
+}
+
+a:hover{
+    color: var(--linkHover);
 }
 
 
@@ -69,19 +78,19 @@ main{
     }
 
     
-    h1{
+   /*  h1{
         text-align: center;
         font-size: 32px;
-    }
+    } */
 
     h2{
-        font-size: 28px;
+        text-align: center;
     }
 
-    h3{
+    /*h3{
         font-size: 22px;
         margin: 15px;
-    }
+    } */
 
     p{
         text-align: center;
