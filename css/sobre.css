@@ -1,3 +1,7 @@
+h2{
+    text-align: center;
+}
+
 .inicio{
     display: flex;
     flex-direction: row;
@@ -44,7 +48,11 @@ div.tudo a{
   
     text-decoration: none;
     color: white;
-} 
+}
+
+div.tudo a::after{
+    content: none;
+}
 
 div.equipa{
     justify-content: center;
@@ -68,11 +76,6 @@ div.equipa{
     display: block;
     background-color: #DC7E26;
     color: white;
-}
-
-.descricaoElemt p{
-    font-size: 16pt;
-    line-height: 0.1;
 }
 
 .tudo:hover{

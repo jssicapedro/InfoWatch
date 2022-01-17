@@ -1,7 +1,8 @@
 # InfoWatch
  
 Jéssica:
-historia (terminar faces da historia)
+historia    slide banner (ipl-js-ficha12(DOM)-ficha12.2(DOM)-ex3)
+            colocar imagem do outro lado e veja mais
 
 links importantes:
 https://g1.globo.com/tecnologia/games/noticia/top-10-dos-games-de-2016-tem-otimos-jogos-de-tiro-e-tramas-humanizadas.ghtml (overwatch, jhogo mais jogado em 2016)
@@ -10,9 +11,3 @@ https://www.fragster.de/br/overwatch-a-historia-completa-do-game-parte-iii/ (his
 
 
 
-
-TODOS OS FICHEIROS (COMUM.CSS):
-    --TodosTitulos: quantium, sans-serif;
-    --texto: 'Rambla', sans-serif;
-    --fundo: #0636d318;
-    --linkHover: rgb(214, 143, 10);
