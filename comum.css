@@ -67,6 +67,10 @@ a:hover{
     color: var(--linkHover);
 }
 
+button{
+    border: none;
+}
+
 
 @media screen and (max-width:500px){   /* 500px */
     html{
