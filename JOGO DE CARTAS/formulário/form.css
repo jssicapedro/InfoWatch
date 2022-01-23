@@ -53,6 +53,7 @@ div#pop-up{
 div.conta{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 div.conta label{
@@ -66,6 +67,19 @@ input{
 
 input:focus{
     border: none;
+}
+
+input:not([type="checkbox"]) {
+    display: block;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    caret-color: orange;
+    background-color: transparent;
+    width: 100%;
+    padding: 2px 5px;
+    color: #fff;
 }
 
 input#entrar{
