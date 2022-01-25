@@ -1,9 +1,9 @@
+*{
+    margin: auto;
+}
+
 .banner img{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    display: flex;
 }
 
 .conteudo{
@@ -13,18 +13,16 @@
     margin: 55px;
 }
 
-/* .imagem{
-    margin-bottom: -81px;
-}
-
 .imagem img{
     position: relative;
-    top: -100px; 
-} */
+    margin-top: -5%; 
+} 
 
 iframe{
-    width: 100vw;
-    height: 60vh;
+    width: 1000px;
+    height: 565px;
+    margin: auto;
+    display: flex;
 }
 
 @media screen and (max-width:500px){
@@ -41,11 +39,5 @@ iframe{
         width: 100%;
         margin: 0px;
         top: 0px;
-    }
-    
-    #rodapeArcade{
-        display: flex; 
-        height: 100px;
-        margin: 0px;
     }
 }
