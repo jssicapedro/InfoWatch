@@ -13,16 +13,18 @@
     margin: 55px;
 }
 
-.imagem{
-    /* float: right;
-    position: relative; */
+/* .imagem{
     margin-bottom: -81px;
 }
 
 .imagem img{
     position: relative;
-    /*margin: 0px 110px;*/
     top: -100px; 
+} */
+
+iframe{
+    width: 100vw;
+    height: 60vh;
 }
 
 @media screen and (max-width:500px){
