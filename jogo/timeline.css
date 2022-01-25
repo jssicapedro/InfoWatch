@@ -30,6 +30,10 @@ p a {
     font-weight: 600;
 }
 
+a::after{
+    content: none;
+}
+
 .ecra-1{
     background-image: linear-gradient(#9b96779a,rgb(0 0 0 / 61%)), url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
     background-color: wheat;
@@ -131,9 +135,9 @@ p a {
 }
 
 .row section p{
-    padding: 25px 25px;
+    padding: 25px;
     line-height: 150%;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
     
 }
 
@@ -163,6 +167,15 @@ p a {
     box-shadow: 3px 5px 10px 0px #0000007a;
 }
 
+details{
+    margin-bottom: 25px;
+    padding: 0 25px;
+}
+
+details summary{
+    padding: 0 5px 25px 5px;
+}
+
 .icon{
      position: absolute;
     background-color: white;
@@ -179,7 +192,12 @@ p a {
     left: -60px;
 }
 
-
+.details1{
+    background-image: url("https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/67/Sydney.jpg/revision/latest/scale-to-width-down/1000?cb=20150417002040");
+    width: 100%;
+    height: 100%;
+    ima
+}
 
 @media (max-width:750px){
     .warpper .center-line{
