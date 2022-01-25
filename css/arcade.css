@@ -1,43 +1,41 @@
-*{
-    margin: auto;
-}
-
 .banner img{
     width: 100%;
 }
 
+.inicio{
+    display: flex;
+    flex-direction: row;
+}
+
 .conteudo{
     text-align: justify;
+    margin: 5% 0;
     width: 50%;
-    float: left;
-    margin: 55px;
 }
-
-.imagem img{
-    position: relative;
-    margin-top: -5%; 
-} 
 
 iframe{
-    width: 1000px;
-    height: 565px;
+    width: 1200px;
+    height: 678px;
     margin: auto;
-    display: flex;
+    margin-top: 5%;
 }
 
-@media screen and (max-width:500px){
-    .conteudo{
-        width: 100%;
-        margin: 0;
+@media screen and (max-width:1000px){
+    iframe{
+        width: 800px;
+        height: 470px;
+    }
+}
+
+@media screen and (max-width:600px){
+
+
+    .imagem {
+        display: none;
     }
 
-    .imagem{
-        margin: 0;
-    }
-
-    .imagem img{
-        width: 100%;
-        margin: 0px;
-        top: 0px;
+    iframe{
+        width: 300px;
+        height: 170px;
     }
 }
