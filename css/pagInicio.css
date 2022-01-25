@@ -46,7 +46,7 @@ main section a::after{
 
 .conteudo-principal{
     height: 60vh;
-    background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url(../img/index/image20.svg);
+    background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url("../img/index/image20.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-position: center top;
@@ -90,7 +90,6 @@ main section a::after{
 
 .conteudo-principal-btn:hover{
     color: #fff;
-    
     background: linear-gradient(-45deg, #d86902, #2090ec);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;

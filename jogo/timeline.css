@@ -49,8 +49,7 @@ a::after{
     
 
     padding: 20px;
-
-    height: 600px;
+    height: 50vh;
 }
 
 .ecra-1 h1{
@@ -148,6 +147,7 @@ a::after{
 .row section .bottom{
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -170,10 +170,17 @@ a::after{
 details{
     margin-bottom: 25px;
     padding: 0 25px;
+    line-height: 25px;
+    cursor: pointer;
 }
 
 details summary{
     padding: 0 5px 25px 5px;
+    list-style-type: '🙂';
+}
+
+details[open] summary{
+    list-style-type: '🙃';
 }
 
 .icon{
@@ -190,13 +197,6 @@ details summary{
 
 .row-2 .icon{
     left: -60px;
-}
-
-.details1{
-    background-image: url("https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/67/Sydney.jpg/revision/latest/scale-to-width-down/1000?cb=20150417002040");
-    width: 100%;
-    height: 100%;
-    ima
 }
 
 @media (max-width:750px){
@@ -228,5 +228,14 @@ details summary{
 
    .row-1 section .icon{
        left: -60px;
+   }
+
+   .title {
+       text-align: center;
+       font-size: 1.1em;
+   }
+
+   p{
+       text-align: left;
    }
 }

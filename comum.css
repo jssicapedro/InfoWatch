@@ -16,7 +16,6 @@
 }
 
 body{
-    max-width: 1200px;
     background-color: var(--fundo);
     margin: auto;
 }
@@ -50,6 +49,7 @@ h3{
 
 /* main */
 main{
+    max-width: 1200px;
     align-content: center;
     margin: 0% auto;
 }
