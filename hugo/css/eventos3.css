@@ -1,0 +1,176 @@
+@font-face {
+    font-family:quantium;
+    src: url("../fontes/Quantum.otf");
+}
+div#Main h1{
+font-family: quantium, sans-serif;
+margin-left: auto;
+margin-right: auto;
+font-size: 60px;
+text-align: center;
+} 
+
+div#Main img{
+margin-left: 42%;
+margin-right: auto;
+width: 15%;
+}
+
+div#Main h2{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+} 
+
+div#Main p{
+text-align: center;
+font-family: roboto, sans-serif;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+} 
+section#main{
+background-color: rgb(170, 145, 100);
+}
+
+section.jogo{
+font-family: roboto, sans-serif;
+height: 380px;
+width: 31%;
+float: left;
+background-color: #cccccc;
+margin: 20px;
+}
+
+section.jogo1{
+font-family: roboto, sans-serif;
+height: 380px;
+width: 31%;
+float: left;
+background-color: #cccccc;
+margin: 20px;
+}
+
+section.jogo2{
+    font-family: roboto, sans-serif;
+    height: 380px;
+    width: 31%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+
+section.jogo h1{
+    font-family: quantium, sans-serif;
+    font-size: 45px;
+    margin-left: 11%;
+    width: 70%;
+    text-align: center;
+    }
+
+section.jogo1 h1{
+    font-family: quantium, sans-serif;
+    font-size: 45px;
+    margin-left: 16%;
+    width: 70%;
+    text-align: center;
+    }
+
+section.jogo2 h1{
+    font-family: quantium, sans-serif;
+    font-size: 45px;
+    margin-left: 16%;
+    width: 70%;
+    text-align: center;
+    }
+
+section.jogo img{
+margin-left:30%;
+width:35%;
+}
+section.jogo1 img{
+margin-left:34%;
+width:35%;
+}
+section.jogo2 img{
+    margin-left:33%;
+    width:35%;
+    }
+
+section#desafios h2{
+font-family: quantium, sans-serif;
+font-size: 30px;
+}
+
+section#desafios h1{
+font-family: quantium, sans-serif;
+font-size: 45px;
+}
+section#desafios p{
+font-family: roboto, sans-serif;
+}
+
+section#desafios{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+@media screen and (max-width:500px){
+    div#Main h1{
+        font-family: quantium, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+    } 
+    div#Main h2{
+        margin-left: 10%;
+        margin-right: auto;
+        width: 80%;
+    } 
+    section.jogo h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 22.5%;
+        width: 40%;
+    }
+    
+    section.jogo1 h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 8.5%;
+        width: 80%;
+    }
+    section.jogo2 h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 8.5%;
+        width: 80%;
+    }
+    section.jogo{
+        font-family: roboto, sans-serif;
+        height: 425px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    
+      section.jogo1{
+        font-family: roboto, sans-serif;
+        height: 425px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+      }
+      section.jogo2{
+        font-family: roboto, sans-serif;
+        height: 425px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+      }
+}

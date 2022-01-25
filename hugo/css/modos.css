@@ -1,0 +1,144 @@
+@font-face {
+    font-family:quantium;
+    src: url("../fontes/Quantum.otf");
+}
+h1{
+font-family: quantium, sans-serif;
+margin-left: auto;
+margin-right: auto;
+font-size: 60px;
+text-align: center;
+} 
+
+section.modo1{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+    
+    section.modo2{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+    section.modo3{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }   
+    section.modo4{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+    section.modo5{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+            
+    section.modo6{
+    text-align: center;        
+    font-family: roboto, sans-serif;
+    height: 250px;
+    width: 47%;
+    float: left;
+    background-color: #cccccc;
+    margin: 20px;
+    }
+
+    section.modo1 img{
+    width:280px;
+    }
+    section.modo2 img{
+    width:280px;
+    }
+    section.modo3 img{
+    width:280px;
+    }
+    section.modo4 img{
+    width:280px;
+    }
+    section.modo5 img{
+    width:280px;
+    }
+    section.modo6 img{
+    width:280px;
+    }
+
+@media screen and (max-width:500px){
+    section h1{
+        font-family: quantium, sans-serif;
+        font-size: 45px;
+        margin-left: 8.5%;
+        width: 80%;
+    }
+    section.modo1{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    section.modo2{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    section.modo3{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    section.modo4{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    section.modo5{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+    section.modo6{
+        font-family: roboto, sans-serif;
+        height: 250px;
+        width: 80%;
+        float: left;
+        background-color: #cccccc;
+        margin: 60px;
+    }
+}

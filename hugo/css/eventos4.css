@@ -1,0 +1,69 @@
+@font-face {
+    font-family:quantium;
+    src: url("../fontes/Quantum.otf");
+}
+div#Main h1{
+font-family: quantium, sans-serif;
+margin-left: auto;
+margin-right: auto;
+font-size: 60px;
+text-align: center;
+} 
+div#Main img{
+margin-left: 42%;
+margin-right: auto;
+width: 15%;
+}  
+div#Main h2{
+margin-left: 35%;
+margin-right: auto;
+width: 50%;
+} 
+
+div#Main p{
+font-family: roboto, sans-serif;
+margin-left: auto;
+margin-right: auto;
+width: 35%;
+text-align: center;
+} 
+
+section#main{
+background-color: rgb(170, 145, 100);
+}
+
+
+section#desafios h2{
+font-family: quantium, sans-serif;
+font-size: 30px;
+}
+
+section#desafios h1{
+font-family: quantium, sans-serif;
+font-size: 45px;
+}
+section#desafios p{
+font-family: roboto, sans-serif;
+}
+
+section#desafios{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+@media screen and (max-width:500px){
+    div#Main h1{
+        font-family: quantium, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        text-align: center;
+    } 
+    div#Main h2{
+        margin-left: 10%;
+        margin-right: auto;
+        width: 80%;
+        text-align:center;
+    } 
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ano Novo Lunar</title>
+    <link rel="stylesheet" href="css/eventos3.css">
+</head>
+<body>
+  <section id="main">
+<div id="Main">
+    <h1>Terror de Halloween</h1> <br>
+    <a href="https://www.youtube.com/watch?v=zKB-sumbymc" target="_blank"><img src="img/anonovolunar.png"></a> <br> 
+    <br> <h2>Prepara-te para o ano do Boi!</h2>
+    <p>Está na hora do retorno do Ano Novo Lunar no Overwatch!</p> <br>
+</div>
+</section>
+<section class="jogo">
+  <img src="img/jogo_1_anonovo.png">
+    <h1>Caçador de recompensas</h1>
+    <p>Nesta novidade na rotação do modo Arcade, junte pontos enquanto caça recompensas. O jogador que realizar o primeiro abate da partida vira
+    Alvo e todos os demais, Caçadores de Recompensa. Ganhe pontos extras ao eliminar o Alvo, mas cuidado: se der o golpe de misericórdia, o próximo será você.</p>
+</section>
+<section class="jogo1">
+  <img src="img/jogo_2_anonovo.png">
+    <h1>Blitz de capture a bandeira</h1>
+    <p>A coisa ficou séria no Capture a Bandeira. Com as bandeiras das duas equipes bem mais próximas, agora é necessário fazer seis capturas para vencer a partida,
+     em vez das três tradicionais. Inicie um ataque total contra os adversários para roubar a bandeira deles o máximo de vezes possível!</p>
+</section>
+<section class="jogo2">
+    <img src="img/jogo_3_anonovo.png">
+      <h1>Caprture a bandeira</h1>
+      <p>No modo Capture a Bandeira, cada equipe tenta obter a bandeira inimiga e levá-la para sua base enquanto impede o adversário de fazer o mesmo. Os jogadores mais 
+        ávidos podem experimentar o Capture a Bandeira Competitivo, que traz partidas de posicionamento, rankings e Pontos Competitivos!</p>
+  </section>
+
+<section id="desafios">
+<h2>Desafios Semanais</h2>
+<h1>Joga para ganhar!</h1>
+<p>Joga partidas no modo rápido, modo competitivo ou no modo Arcane para desbloquar sprays, ícones e visuais festivos <br>
+Cada semana traz novas recompensas!</p>
+</section>
+<style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      background-color: #00000027;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #000000;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <img src="img/sem_1_anonovo.PNG" style="width:50%">
+      <div class="text">SEMANA 1</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="img/sem_2_anonovo.PNG" style="width:50%">
+      <div class="text">SEMANA 2</div>
+    </div>
+    
+    <div class="mySlides fade">
+
+      <img src="img/sem_3_anonovo.PNG" style="width:50%">
+      <div class="text">SEMANA 3</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+        
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+</body>
+</html>
