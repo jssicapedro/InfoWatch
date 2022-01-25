@@ -1,3 +1,7 @@
+a{
+    border-bottom: 1px solid orange;
+}
+
 aside{
     height: 680px;
     margin-right: 5%;
@@ -6,36 +10,26 @@ aside{
     position:relative;
 }
 
-/* aside h1{
-    font-family: var(--titulosSobre);
-    font-size: 1vw;
-    text-align: center;
-    color: white;
-} */
-
 #imgPessoal img{
-    width: 100%;
+    width: 17%;
     height: auto;
     background-size: cover;
+    position: fixed;
 }
 
 /* div#redes */
 div#redes{
-    position:absolute;
+    position:relative;
     display: flex;
     justify-content: end;
-    margin: 20px 30%;
-    bottom: 10px;
+    margin-top: 130%;
 }
 
 div#redes a{
+    border: none;
     text-decoration: none;
     margin: auto;
     padding: 0px 10px;
-}
-
-div#redes a::after{
-    content: none;
 }
 
 div#redes a img{
@@ -43,29 +37,17 @@ div#redes a img{
     width: 20px;
 }
 
-/*article*/
+div#redes a img:hover{
+    transform: scale(1.2);
+}
+
 article{
     display: block;
 }
 
-/* article h1{
-    font-size: 1vw;
-    padding-top: 5%;
-    font-size: 2em;
-    font-family: var(--titulosSobre);
-} 
-
-article h2{
-    font-family: var(--titulosSobre);
-    font-size: 16pt;
-    letter-spacing: 0.23em;
-    height: 30px;
-    line-height: 30px;
-}*/
 
 article p{
-    text-align: justify;/* 
-    font-size: 1em; */
+    text-align: justify;
 }
 
 table{
@@ -76,7 +58,7 @@ table{
     width: 100%;
 }
 
-article table tr td button{
+button{
     position: relative;
     margin-left: 100%;
     width: 50%;
@@ -88,13 +70,22 @@ article table tr td button{
     box-shadow: 2px 2px 6px 0px grey;
 }
 
-article table tr td button a{
+button a{
     text-decoration: none;
+    border: none;
     color: black;
 }
 
-article table tr td button:hover{
-    height: 40px;
+div#redes a::after, button a::after{
+    content: none;  
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button a:hover{
+    color: black;
 }
 
 #extra{
