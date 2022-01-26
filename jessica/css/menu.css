@@ -1,0 +1,176 @@
+nav{
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    z-index: 1;
+}
+#logoMenu{
+    background-color: rgb(31, 31, 31);
+    margin-right:30px;
+    width:auto;
+
+}
+.menu {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .paginaatual {
+    background-color: #c85a0080;
+    color: white;
+  }
+  .menudrop{
+      display: block;
+  }
+  .menudrop, #logoMenu img{
+    width: auto;
+    height: 60px;
+    float: left;
+  }
+  
+  .menudrop .menubotao {
+    font-size: 20px;    
+    border: none;
+    color: black;
+    padding: 18.5px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .menudrop-opcao {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .menudrop-opcao a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .menudireita{
+    background-color: #ff7300;
+   position: absolute;
+   right: 0;
+   color: white;
+ }
+ .menudireita .menubotao{
+     color: white ;
+ }
+
+  .menu a:hover, .menudrop:hover .menubotao {
+    background-color: #ff7300;
+    color: white;
+  }
+  .menudireita .menubotao:hover{
+    background-color: #e76800;
+    color: white ;
+}
+  .menudrop-opcao a:hover {
+    background-color: #ff8f33;
+    color: rgb(255, 255, 255);
+  }
+  
+  .menudrop:hover .menudrop-opcao {
+    display: block;
+  }
+  .menuicon{
+      display: none;
+      float:right;
+  }
+  @media screen and (max-width:900px){
+
+    nav{
+        border-radius:10px;
+        z-index: 1;
+        overflow-x: hidden;
+        position: absolute;
+    }
+    .menu{
+        transition: 0.1s;
+    }
+    .menudrop{
+        margin-top: 15px;
+        display: none;
+        position: relative;
+        text-align: center;
+        width: 100vw;
+      }
+      #logoMenu{
+        background-color:rgb(0, 0, 0);
+      }
+
+      .menuicon {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        right:0;
+        top:30px;
+        margin-right: 5%;
+        padding-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.80);
+        border-radius: 10px;
+      }
+      .menudrop-opcao{
+        z-index: 1;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.897);
+      }
+      .menudrop .menubotao {
+        color:white;
+        width: 100%;
+        margin:0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 5vw;
+      }
+      .menudireita{
+        position: absolute;
+        margin-top: 91vh;
+      }
+      .paginaatual{
+        color: rgba(255, 255, 255, 0.9) !important;
+      }
+      .barra1, .barra2, .barra3 {
+        width: 40px;
+        height: 6px;
+        background-color: rgb(31, 31, 31);
+        margin: 5px 10px;
+        transition: 0.4s;
+        border-radius: 20%;
+      
+      }
+      .barra1{
+        margin-top: 14px;
+      } 
+      .mexerIcon .barra1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .mexerIcon .barra2 {opacity: 0;}
+      
+      .mexerIcon .barra3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+      }

@@ -46,7 +46,7 @@ main section a::after{
 
 .conteudo-principal{
     height: 60vh;
-    background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url("../../img/index/image20.svg");
+    background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url("../img/index/image20.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-position: center top;
@@ -118,7 +118,7 @@ main section a::after{
 }
 
 .conteudo-terceiro{
-    background-image: url("../../img/index/4.svg");
+    background-image: url("../img/index/4.svg");
     display: flex;
     background-position: center center;
 }
@@ -161,7 +161,7 @@ footer{
     }
 
     .conteudo-secundario{
-        background-image: linear-gradient(#5a564970,rgb(0 0 0 / 20%)),url("../../img/index/2.svg");
+        background-image: linear-gradient(#5a564970,rgb(0 0 0 / 20%)),url("../img/index/2.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right center ;

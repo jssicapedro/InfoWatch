@@ -1,79 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="../img/logotipos/InfoWatch/logo.icon" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logotipos/InfoWatch/logo.icon" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize 8.0.1.css">
     <link rel="stylesheet" href="css/arcade.css">
     <link rel="stylesheet" href="../comum.css">
     <title>Arcade</title>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="menu ">
+                <a id="logoMenu"><img id="menulogotipo" src="../imagem/logooverwacth.png"></a>
+                <div class="menudrop">
+                    <button class="menubotao">Jogo</button>
+                    <div class="menudrop-opcao">
+                        <a href="#">História do Jogo</a>
+                        <a href="#">Modos</a>
+                        <a href="mapas.html">Mapas</a>
+                        <a href="#">Ranks</a>
+                    </div>
+                </div>
+                <div class="menudrop">
+                    <button class="menubotao">Eventos/Competições</button>
+                    <div class="menudrop-opcao">
+                        <a href="#">Eventos</a>
+                        <a href="competicao.html" class="paginaatual">Competições</a>
+                    </div>
+                </div>
+                <div class="menudrop">
+                    <a href="curriculo.html" class="menubotao">Sobre</a>
+                </div>
+                <div class="menudrop menudireita">
+                    <a class="menubotao">Ganhar Premios</a>
+                </div>
+            </div>
+            <div class="menuicon" onclick="menuIcon(this)">
+                <div class="barra1"></div>
+                <div class="barra2"></div>
+                <div class="barra3"></div>
+            </div>
+        </nav>
+    </header>
     <div class="banner">
-            <img src="../img/arcade/arcadeBanner1.png" alt="slide" id="banner">
-        </div>
+        <img src="img/arcade/arcadeBanner1.png" alt="slide" id="banner">
+    </div>
     <main>
-            <h1>Arcade</h1>
-            <p>Este modo de jogo tem muito por onde escolher. Nomeadamente:</p>
+        <h1>Arcade</h1>
+        <p>Este modo de jogo tem muito por onde escolher. Nomeadamente:</p>
+        <ul>
+            <li>Duelo</li>
             <ul>
-                <li>Duelo</li>
+                <li>1v1: Duelo Misterioso</li>
+                <details>
+                    <summary>Mapas</summary>
                     <ul>
-                        <li>1v1: Duelo Misterioso</li>
-                            <details>
-                                <summary>Mapas</summary>
-                                <ul>
-                                    <li>Floresta Negra</li>
-                                    <li>Castelo</li>
-                                    <li>Antártica</li>
-                                    <li>Necrópole</li>
-                                </ul>
-                            </details>
-                            <details>
-                                <summary>Personagens</summary>
-                                <ul>
-                                    <li>Bastion</li> 
-                                    <li>D.Va</li> 
-                                    <li>Lúcio</li>
-                                    <li>Mercy</li> 
-                                    <li>Reinhardt</li> 
-                                    <li>Torbjörn</li> 
-                                    <li>Winston</li> 
-                                    <li>Zarya</li> 
-                                </ul>
-                            </details>
-                            Ganhe após 5 vitórias
-                        <li>1v1: Duelo limitado</li>
-                            <details>
-                                <summary>Mapas</summary>
-                                <ul>
-                                    <li>Floresta Negra</li>
-                                    <li>Castelo</li>
-                                    <li>Antártica</li>
-                                    <li>Necrópole</li>
-                                </ul>
-                            </details>
-                            <details>
-                                <summary>Personagens</summary>
-                                <ul>
-                                    <li>Lúcio</li>
-                                    <li>Mercy</li>
-                                </ul>
-                            </details>
-                            Ganhe após 5 vitórias
+                        <li>Floresta Negra</li>
+                        <li>Castelo</li>
+                        <li>Antártica</li>
+                        <li>Necrópole</li>
                     </ul>
-                <li>Eliminação</li>
-                <li>Capturar a bandeira</li>
-                <li>Mata-Mata</li>
+                </details>
+                <details>
+                    <summary>Personagens</summary>
+                    <ul>
+                        <li>Bastion</li>
+                        <li>D.Va</li>
+                        <li>Lúcio</li>
+                        <li>Mercy</li>
+                        <li>Reinhardt</li>
+                        <li>Torbjörn</li>
+                        <li>Winston</li>
+                        <li>Zarya</li>
+                    </ul>
+                </details>
+                Ganhe após 5 vitórias
+                <li>1v1: Duelo limitado</li>
+                <details>
+                    <summary>Mapas</summary>
+                    <ul>
+                        <li>Floresta Negra</li>
+                        <li>Castelo</li>
+                        <li>Antártica</li>
+                        <li>Necrópole</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Personagens</summary>
+                    <ul>
+                        <li>Lúcio</li>
+                        <li>Mercy</li>
+                    </ul>
+                </details>
+                Ganhe após 5 vitórias
             </ul>
-            <p>O Arcade permite que os jogadores escolham uma variedade de modos de jogo, mapas e regras rotativos que não se adequam ao Jogo Rápido ou Jogo Competitivo. Seja um duelo 1v1 ou confrontos 3v3, ou seleções diferentes de contendas (que incluem regras especiais como "sem troca de heróis”), você não terá problema para encontrar um jogo para se divertir.</p>
-            <p style="text-align: center;"> Junta o teu grupo e mergulha de cabeça.</p>
-        <iframe src="https://www.youtube.com/embed/mI7ZjyQXUiw?controls=0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <li>Eliminação</li>
+            <li>Capturar a bandeira</li>
+            <li>Mata-Mata</li>
+        </ul>
+        <p>O Arcade permite que os jogadores escolham uma variedade de modos de jogo, mapas e regras rotativos que não
+            se adequam ao Jogo Rápido ou Jogo Competitivo. Seja um duelo 1v1 ou confrontos 3v3, ou seleções diferentes
+            de contendas (que incluem regras especiais como "sem troca de heróis”), você não terá problema para
+            encontrar um jogo para se divertir.</p>
+        <p style="text-align: center;"> Junta o teu grupo e mergulha de cabeça.</p>
+        <iframe src="https://www.youtube.com/embed/mI7ZjyQXUiw?controls=0&autoplay=1&mute=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </main>
 
 
     <script src="js/slider.js"></script>
 </body>
+
 </html>
