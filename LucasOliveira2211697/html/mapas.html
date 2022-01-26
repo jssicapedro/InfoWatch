@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body onload="filtro(0)">
+    <header>
+        <nav>
+        <div class="menu ">
+            <a id="logoMenu"><img id="menulogotipo" src="../imagem/logooverwacth.png"></a>
+            <div class="menudrop">
+                <button class="menubotao">Jogo</button>
+                <div class="menudrop-opcao">
+                  <a href="#">História do Jogo</a>
+                  <a href="#">Modos</a>
+                  <a href="#" class="paginaatual">Mapas</a>
+                  <a href="#">Ranks</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <button class="menubotao">Eventos/Competições</button>
+                <div class="menudrop-opcao">
+                  <a href="#">Eventos</a>
+                  <a href="competicao.html">Competições</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <a href="curriculo.html" class="menubotao">Sobre</a>
+            </div>
+            <div class="menudrop menudireita">
+                <a class="menubotao">Ganhar Premios</a>
+            </div>  
+        </div>
+        <div class="menuicon" onclick="menuIcon(this)">
+            <div class="barra1"></div>
+            <div class="barra2"></div>
+            <div class="barra3"></div>
+        </div>   
+        </nav>
+        <div class="capa">
+            <h1>Mapas</h1>
+        </div>
+
+    </header>
+
+    <main id="loading">
+        <div id="quadrado1"></div>
+        <div id="quadrado2"></div>
+        <div id="quadrado4"></div>
+        <div id="quadrado3"></div>
+    </main>
+    <main id="principal">
+        <div class="filtro">
+            <p class="botao" onclick="filtro(0)" >TODOS OS MAPAS</p>
+            <p class="botao" onclick="filtro(1)" >CONTROLE</p>
+            <p class="botao" onclick="filtro(2)" >ATAQUE</p>
+            <p class="botao" onclick="filtro(3)" >ESCOLTA</p>
+            <p class="botao" onclick="filtro(4)" >CAPTURE A BANDEIRA</p>
+            <p class="botao" onclick="filtro(5)" >HÍBRIDO</p>
+            <p class="botao" onclick="filtro(6)" >ELIMINAÇÃO</p>
+            <p class="botao" onclick="filtro(7)" >COMBATE ATÉ A MORTE</p>
+            <p class="botao" onclick="filtro(8)" >COMBATE ATÉ A MORTE EM EQUIPE</p>
+        </div>
+        <div class="descricao_mapa">
+            <h3 class="selecao">TODOS OS MAPAS</h3>
+            <p class="selecao1">Em Overwatch, os heróis lutam em diversos locais ao redor do mundo. Das maravilhas tecnológicas de Busan aos montes nevados do Nepal, cada mapa conta com objetivos, segredos e estratégias a serem exploradas.</p>
+
+            <h3 class="selecao">CONTROLE</h3>
+            <p class="selecao1">As equipes lutam para tomar um objetivo. A primeira a ganhar duas rodadas vence o mapa.</p>
+
+            <h3 class="selecao">ATAQUE</h3>
+            <p class="selecao1">Os atacantes lutam para capturar uma série de objetivos; os defensores impedem o progresso deles até que o tempo se esgote.</p>
+
+            <h3 class="selecao">ESCOLTA</h3>
+            <p class="selecao1">Os atacantes escoltam uma carga até um ponto de entrega, enquanto os defensores tentam impedi-los.</p>
+
+            <h3 class="selecao">CAPTURE A BANDEIRA</h3>
+            <p class="selecao1">As equipes competem para capturar a bandeira da equipe inimiga enquanto defendem a sua.</p>
+
+            <h3 class="selecao">HÍBRIDO</h3>
+            <p class="selecao1">Os atacantes capturam uma carga e a escoltam até o seu destino, enquanto os defensores tentam segurá-los.</p>
+
+            <h3 class="selecao">ELIMINAÇÃO</h3>
+            <p class="selecao1">Elimine todos os inimigos para ganhar a rodada. Ganhe três rodadas para vencer o mapa. Disponível em equipes de um, três ou seis jogadores.</p>
+
+            <h3 class="selecao">COMBATE ATÉ A MORTE</h3>
+            <p class="selecao1">Os jogadores competem para ver que consegue o maior número de abates em um formato todos contra todos.</p>
+
+            <h3 class="selecao">COMBATE ATÉ A MORTE EM EQUIPE</h3>
+            <p class="selecao1">Os jogadores competem para ver que consegue o maior número de abates em um formato em equipe.</p>
+        </div>
+        <section class="alinhamento">
+            <div class="espaco capture">
+                <div class="mapa">
+                    <img onclick="escolherFoto(0)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt0948042de447abee/611ee452d0cc27205271675f/ayutthaya.jpg?auto=webp" class="imagem">
+                    <p class="descricao">AYUTTHAYA</p>
+                    <img src="../icon/captura.png" class="categoria">
+                </div>
+            </div>  
+            <div class="espaco hibrido">
+            <div class="mapa">
+                <img onclick="escolherFoto(1)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt577128fd9dc121aa/611ee452a504df3b2a042031/blizzard-world.jpg?auto=webp" class="imagem">
+                <p class="descricao">BLIZZARD WORLD</p>
+                <img src="../icon/hibrido.png" class="categoria">
+            </div>
+            </div>
+                <div class="espaco controle">
+                <div class="mapa">
+                    <img onclick="escolherFoto(2)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt2b6e04738283d789/611ee4520885c02054c3ce7e/busan.jpg?auto=webp" class="imagem">
+                    <p class="descricao">BUSAN</p>
+                    <img src="../icon/controle.png" class="categoria">
+                </div>
+            </div>
+                <div class="espaco equipa eliminacao">
+                <div class="mapa">
+                    <img onclick="escolherFoto(3)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt735f17622403c5d5/611ee45219b5613c6defc5f4/castillo.jpg?auto=webp" class="imagem">
+                    <p class="descricao">CASTILLO</p>
+                    <img src="../icon/eliminacao.png" class="categoria">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+                <div class="espaco morte equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(4)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltb66b71ca5df3f2ef/611ee452c203863c736d84b9/chateau-guillard.jpg?auto=webp" class="imagem">
+                    <p class="descricao">CHÂTEAU GUILLARD</p>
+                    <img src="../icon/morte.png" class="categoria">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco ataque">
+                <div class="mapa">
+                    <img onclick="escolherFoto(5)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltf95a4750e134e8f2/611ee4580885c02054c3ce82/horizon-lunar-colony.jpg?auto=webp" class="imagem">
+                    <p class="descricao">COLÔNIA LUNAR HORIZON</p>
+                    <img src="../icon/ataque.png" class="categoria">
+                </div>
+            </div>
+            <div class="espaco morte escolta equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(6)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltebac6889cd75659b/611ee452d0cc27205271675b/dorado.jpg?auto=webp" class="imagem">
+                    <p class="descricao">DORADO</p>
+                    <img src="../icon/escolta.png" class="categoria">
+                    <img src="../icon/morte.png" class="categoria2">
+                    <img src="../icon/equipa.png" class="categoria2">
+                 </div>
+            </div>
+            <div class="espaco eliminacao equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(7)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltae9dc9a1d56074b0/611ee452a504df3b2a04202d/ecopoint-antarctica.jpg?auto=webp" class="imagem">
+                    <p class="descricao">ECOPONTO: ANTÁRTICA</p>
+                    <img src="../icon/eliminacao.png" class="categoria">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco morte hibrido equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(8)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt0f5d1ad7af8a226c/611ee452c8655d21a20dc8a2/eichenwalde.jpg?auto=webp" class="imagem">
+                    <p class="descricao">EICHENWALDE</p>
+                    <img src="../icon/hibrido.png" class="categoria">
+                    <img src="../icon/morte.png" class="categoria2">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco eliminacao equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(9)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltfe000d59d4ddd7f0/611ee4528ae2653b28a720ee/black-forest.jpg?auto=webp" class="imagem">
+                    <p class="descricao">FLORESTA NEGRA</p>
+                    <img src="../icon/eliminacao.png" class="categoria">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco ataque">
+                <div class="mapa">
+                    <img onclick="escolherFoto(10)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltc3dbb0128e2228fd/611ee452c8163c2197c3c688/hanamura.jpg?auto=webp" class="imagem">
+                    <p class="descricao">HANAMURA</p>
+                    <img src="../icon/ataque.png" class="categoria">
+                </div>
+            </div>
+            <div class="espaco escolta">
+                <div class="mapa">
+                    <img onclick="escolherFoto(11)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt081af64d77f60426/611ee458c8163c2197c3c68c/havana.jpg?auto=webp" class="imagem">
+                    <p class="descricao">HAVANA</p>
+                    <img src="../icon/escolta.png" class="categoria">
+                </div>
+            </div>
+            <div class="espaco hibrido morte equipa">
+                <div class="mapa">
+                    <img onclick="escolherFoto(12)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltdc8b76710d66f32d/611ee458c8655d21a20dc8a6/hollywood.jpg?auto=webp" class="imagem">
+                    <p class="descricao">HOLLYWOOD</p>
+                    <img src="../icon/hibrido.png" class="categoria">
+                    <img src="../icon/morte.png" class="categoria2">
+                    <img src="../icon/equipa.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco controle capture">
+                <div class="mapa">
+                    <img onclick="escolherFoto(13)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt11b5273cb0bf873f/611ee45819b5613c6defc5f8/ilios.jpg?auto=webp" class="imagem">
+                    <p class="descricao">ILIOS</p>
+                    <img src="../icon/controle.png" class="categoria">
+                    <img src="../icon/captura.png" class="categoria2">
+                </div>
+            </div>
+            <div class="espaco ataque">
+                <div class="mapa">
+                    <img onclick="escolherFoto(14)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltbf9241052a62165f/611ee460a504df3b2a042039/volskaya-industries.jpg?auto=webp" class="imagem">
+                    <p class="descricao">INDÚSTRIAS VOLSKAYA</p>
+                    <img src="../icon/ataque.png" class="categoria">
+                </div>
+            </div>
+            <div class="espaco escolta">
+                <div class="mapa">
+                    <img onclick="escolherFoto(15)" src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt91d6a57567957130/611ee45819b5613c6defc5fc/junkertown.jpg?auto=webp" class="imagem">
+                    <p class="descricao">JUNKERTOWN</p>
+                    <img src="../icon/escolta.png" class="categoria">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="jogo.html"><p>Ganha Premios</p></a>
+    </footer>
+    <div class="slidefoto">
+        <span class="fechar" onclick="fecharSlideFotos()">&times;</span>
+        <span class="seta-esquerda" onclick="mudarFoto(-1)">&#10094;</span>
+        <img class="slidefoto-imagem" id="foto">
+        <span class="seta-direita" onclick="mudarFoto(1)">&#10095;</span>
+        <p class="slidefoto-descricao"></p>
+    </div>
+</body>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/menuscript.js"></script> 
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylecompeticao.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+</head>
+<body onload="carregada()">
+    <header>
+        <nav>
+        <div class="menu ">
+            <a id="logoMenu"><img id="menulogotipo" src="../imagem/logooverwacth.png"></a>
+            <div class="menudrop">
+                <button class="menubotao">Jogo</button>
+                <div class="menudrop-opcao">
+                  <a href="#">História do Jogo</a>
+                  <a href="#">Modos</a>
+                  <a href="mapas.html" >Mapas</a>
+                  <a href="#">Ranks</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <button class="menubotao">Eventos/Competições</button>
+                <div class="menudrop-opcao">
+                  <a href="#">Eventos</a>
+                  <a href="competicao.html" class="paginaatual">Competições</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <a href="curriculo.html" class="menubotao">Sobre</a>
+            </div>
+            <div class="menudrop menudireita">
+                <a class="menubotao">Ganhar Premios</a>
+            </div>  
+        </div>
+        <div class="menuicon" onclick="menuIcon(this)">
+            <div class="barra1"></div>
+            <div class="barra2"></div>
+            <div class="barra3"></div>
+        </div>   
+        </nav>
+        <div class="capa">
+            <h1>OverWatch</h1>
+        </div>
+    </header>
+    <main id="loading">
+        <div id="quadrado1"></div>
+        <div id="quadrado2"></div>
+        <div id="quadrado4"></div>
+        <div id="quadrado3"></div>
+    </main>
+    <main id="principal">
+        <div id="flexcompeticao">
+            <a href="equipa_oeste.html">
+                <section class="flextamanho">
+                    <img src="../imagem/EquipasOeste.png">
+                    <p id="botaocompeticao1">Equipas Oeste</p>
+                </section>
+            </a>
+            <section id="flexporcima">
+                <div class="textocompeticao">
+                    <p>Sobre Liga OverWatch</p>
+                    <p>A Liga OverWatch e uma liga esport internacional composta por 20 equipas  que dispoem dos melhores jogadores de OverWatch do mundo. A temporada de 2021 começou a 16 de Abril e terminou com os jogos decisivos e a grande final em Setembro. Mostrando competição de alto nivel, historias emocionantes, um excelente prêmio monetario, recompensas aos espectadores e produção de ponta, a liga OverWatch é a liga principal de esport do mundo.</p>
+                </div>
+                <div class="textocompeticao">
+                    <p>Formato da Temporada 2021</p>
+                    <p>Os jogos da temporada habitual vão ser estruturados em quatro ciclos: Corpo a Corpo de Maio, Justa de Junho, Confronto de Verao e Copa da Contagem. As equipas irao jogar quatro partidas qualificadoras por cada ciclo para prosseguirem para os torneios finais.</p>
+                </div>
+            </section>
+            <a href="equipa_este.html">
+                <section class="flextamanho" >
+                    <img src="../imagem/EquipasEste.png">
+                    <p id="botaocompeticao2">Equipas Este</p>
+                </section>
+            </a>
+        </div>
+        <div id="linhadotempo">
+            <p>Campeões da Liga</p>
+
+            <div id="timeline"></div>
+            <div class="campeao">
+                <p class="anocampeao">2018</p>
+                <div class="circulo"></div>
+                <img class="imagemcampeao" src="https://images.blz-contentstack.com/v3/assets/blt697ddde19e9370ea/blt5a79ce2446ec5304/5d37d2da628ad003b5d864c3/HCS229B4DP021507822883016.svg">
+                <p class="cidadecampeao">London</p>
+                <p class="nomecampeao">Spitfire</p>
+            </div>
+            <div class="campeao">
+                <p class="anocampeao">2019</p>
+                <div class="circulo"></div>
+                <img class="imagemcampeao" src="https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb7f12a7f25e9e004/5e176405174b0d0c519bdec7/OWL_SFShock_Icon_1C_SILVER.svg">
+                <p class="cidadecampeao">San Francisco</p>
+                <p class="nomecampeao">Shock</p>
+            </div>
+            <div class="campeao">
+                <p class="anocampeao">2020</p>
+                <div class="circulo"></div>
+                <img class="imagemcampeao" src="https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/bltb7f12a7f25e9e004/5e176405174b0d0c519bdec7/OWL_SFShock_Icon_1C_SILVER.svg">
+                <p class="cidadecampeao">San Francisco</p>
+                <p class="nomecampeao">Shock</p>
+            </div>
+            <div class="campeao">
+                <p class="anocampeao">2021</p>
+                <div class="circulo"></div>
+                <img class="imagemcampeao" src="https://images.blz-contentstack.com/v3/assets/blt321317473c90505c/blt159d55819a054c81/5cdf15b7a408243c113cc85e/ZIVUVIWXNIFL1507822883114.svg">
+                <p class="cidadecampeao">Shanghai</p>
+                <p class="nomecampeao">Dragons</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="jogo.html"><p>Ganha Premios</p></a>
+    </footer>
+</body>
+    <script src="../javascript/menuscript.js"></script>
+    <script src="../javascript/script.js"></script>
+</html>

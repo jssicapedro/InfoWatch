@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body onload="carregada()">
+    <header>
+        <nav>
+        <div class="menu ">
+            <a id="logoMenu"><img id="menulogotipo" src="../imagem/logooverwacth.png"></a>
+            <div class="menudrop">
+                <button class="menubotao">Jogo</button>
+                <div class="menudrop-opcao">
+                  <a href="#">História do Jogo</a>
+                  <a href="#">Modos</a>
+                  <a href="#" class="paginaatual">Mapas</a>
+                  <a href="#">Ranks</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <button class="menubotao">Eventos/Competições</button>
+                <div class="menudrop-opcao">
+                  <a href="#">Eventos</a>
+                  <a href="competicao.html">Competições</a>
+                </div>
+            </div>
+            <div class="menudrop">
+                <a href="curriculo.html" class="menubotao">Sobre</a>
+            </div>
+            <div class="menudrop menudireita">
+                <a class="menubotao">Ganhar Premios</a>
+            </div>  
+        </div>
+        <div class="menuicon" onclick="menuIcon(this)">
+            <div class="barra1"></div>
+            <div class="barra2"></div>
+            <div class="barra3"></div>
+        </div>   
+        </nav>
+        <div class="capa">
+            <h1>Ranks</h1>
+        </div>
+
+    </header>
+
+    <main id="loading">
+        <div id="quadrado1"></div>
+        <div id="quadrado2"></div>
+        <div id="quadrado4"></div>
+        <div id="quadrado3"></div>
+    </main>
+</body>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/menuscript.js"></script> 
+</html>

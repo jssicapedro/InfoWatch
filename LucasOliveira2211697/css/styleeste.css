@@ -1,0 +1,80 @@
+.esquerda{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.direita{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.esquerda h2{
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+.equipas_logotipo{
+    width: 6vw;
+    transition-duration: 0.2s;
+}
+.equipas{
+    padding-top: 5%;
+}
+.equipa_botao{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    width: 100px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.esquerda a{
+    text-decoration: none;
+}
+.equipa_botao:hover{
+    background-color: rgb(255, 179, 39);
+}
+.equipas_logotipo:hover{
+    transform: scale(120%);
+    
+}
+
+@media (max-width: 800px) {
+
+    .esquerda{
+        float: none;
+        width: 80%;
+    }
+    .esquerda h2{
+        font-size: 7vw;
+    }
+    .direita{
+        float: none;
+        text-align: center;
+        width: 80%;
+    }
+    .equipas_logotipo{
+        width: 15vw;
+    }
+
+}
+@media (max-width: 500px) {
+
+    .esquerda h2{
+        font-size: 10vw;
+    }
+    .equipa_botao{
+        background-color: orange;
+        width: 80px;
+        font-size: 12px;
+    }
+}
