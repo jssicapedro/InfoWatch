@@ -2,8 +2,6 @@ window.onload = function () {
     slide1();
 }
 
-/* let intrevalo=3000; */
-
 function slide1() {
     document.getElementById("banner").src = "img/arcade/arcadeBanner1.png";
     setTimeout("slide2()", 3000);

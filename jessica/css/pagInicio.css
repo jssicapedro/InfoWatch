@@ -144,7 +144,7 @@ footer{
     height: 20px;
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
     .conteudo-principal, .conteudo-secundario, .conteudo-terceiro{
         text-align: center;
     }
@@ -204,3 +204,5 @@ footer{
         background-position: 0% 50%;
     }
 }
+
+
