@@ -121,6 +121,7 @@ main section a::after{
     background-image: url("../img/index/4.svg");
     display: flex;
     background-position: center center;
+    margin: 0;
 }
 
 .conteudo-terceiro-escrito{
@@ -139,10 +140,96 @@ main section a::after{
     color: white;
 }
 
-footer{
-    background-color: rgb(194, 126, 1);
-    height: 20px;
+section.form{
+    width: 100%;
+    margin: 0;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
+
+.form h2{
+    color: #fff;
+    text-align: center;
+}
+
+.form p{
+    text-align: center;
+}
+
+.part-formulario{
+    display: flex;
+    flex-direction: row;
+}
+
+.part-formulario .img{
+    width: 50%;
+    background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");;
+}
+
+.formulario{ 
+    color: #fff;
+    margin: auto;
+    width: 50%;
+}
+
+.formulario p{
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.formulario textarea{
+    width: 26em;
+}
+
+.formulario button{
+    border-radius: 5px;
+}
+
+.formulario input, .formulario select, .formulario textarea{
+    border-radius: 5px;
+    border: none;
+}
+
+label{
+    font-weight: bold; 
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"], #mensagem{
+    display: block;
+    padding-top: 5px;
+    margin: 20px;
+    box-shadow:  3px 4px 16px 0px #ffffff80;;
+}
+
+input[type="radio"]{
+    margin-left: 20px;
+}
+
+.deixMsg{
+    margin-top: 20px;
+    display: block;
+}
+
+input:focus, #mensagem:focus{
+    background: #fff;
+} 
+
+.form button{
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #ffa60062;
+}
+
+.form button:hover{
+    background-color: #ffa60093;
+}
+
 
 @media (max-width:600px) {
     .conteudo-principal, .conteudo-secundario, .conteudo-terceiro{

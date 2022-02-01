@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="css/pagInicio.css">
     <link rel="stylesheet" href="../comum.css">
     <link rel="stylesheet" href="css/normalize 8.0.1.css">
+
     <link rel="shortcut icon" href="img/logotipos/InfoWatch/logo.icon" type="image/x-icon">
+
     <title>InfoWatch</title>
 </head>
 
 <body>
-    
+
     <main class="conteudo">
         <section class="conteudo-principal">
             <h1 class="conteudo-principal-titulo">InfoWatch</h1>
@@ -52,11 +54,39 @@
                     <button class="conteudo-terceiro-btn">Saiba mais</button>
                 </a>
             </div>
-            <!-- <img src="img/index/4.svg" alt=""> -->
+        </section>
+        <section class="form">
+            <div class="part-formulario">
+                <div class="img">
+
+                </div>
+                <div class="formulario">
+                    <h1>Ajude-nos a melhorar</h1>
+                    <br>
+                    <form action="#">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome">
+                            <label for="mail">Email:</label>
+                            <input type="email" name="mail" id="mail">
+                        </div>
+                        <div class="avaliacao">
+                            <label for="">Como nos avalia?</label>
+                            <input type="radio" name="0-20"> De 0 a 20
+                            <input type="radio" name="20-50"> De 20 a 50
+                            <input type="radio" name="50-80" checked> De 50 a 80
+                            <input type="radio" name="80-100"> De 80 a 100
+                        </div>
+                        <div>
+                            <label class="deixMsg"> Deixe aqui a sua mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="6"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
-    <!-- <footer>
-    </footer> -->
 </body>
 
 </html>
