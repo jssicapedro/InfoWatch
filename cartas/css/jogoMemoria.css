@@ -1,4 +1,9 @@
+h2{
+    text-align: center;
+}
+
 section.categorias{
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -15,11 +20,40 @@ input[type="button"]{
 }
 
 input[type="button"]:hover{
-
     background: linear-gradient(-45deg, #ff820e, #b35701);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
+.cartas4_2, .cartas4_3, .cartas4_4{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cartas4_2 img, .cartas4_3 img, .cartas4_4 img{
+    width: 250px;
+    margin: 20px;
+}
+
+
+@media (max-width:1000px){
+    .cartas4_2 img, .cartas4_3 img, .cartas4_4 img{
+        width: 150px;
+        margin: 20px;
+    }
+}
+
+
+@media (max-width:500px){
+    .cartas4_2 img, .cartas4_3 img, .cartas4_4 img{
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+
 
 @keyframes gradient {
     0% {
