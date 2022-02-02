@@ -90,7 +90,7 @@ main section a::after{
 
 .conteudo-principal-btn:hover{
     color: #fff;
-    background: linear-gradient(-45deg, #d86902, #2090ec);
+    background: linear-gradient(-45deg, #ff820e, #b35701);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
