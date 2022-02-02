@@ -25,14 +25,61 @@ input[type="button"]:hover{
     animation: gradient 15s ease infinite;
 }
 
+article{
+    display: flex;
+}
+
+
+div.container{
+    margin: 50px;
+    width: 200px;
+    height: 282px;
+    position: relative;
+    transform: perspective(800px);
+}
+
+div#card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+#card:hover{
+    transform: rotateY(180deg); 
+}
+
+figure{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-image: url("../img/tras.jpg");
+    background-size: 100%;
+}
+
+.back{
+     background-image: url("../img/aniverario.png");
+    transform: rotateY(180deg);
+    background-size: 100%;
+}
+
+
+
+
+/* 
 .cartas4_2, .cartas4_3, .cartas4_4{
     margin: 20px;
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
 .cartas4_2 img, .cartas4_3 img, .cartas4_4 img{
+    position: relative;
     width: 250px;
     margin: 20px;
 }
@@ -52,7 +99,7 @@ input[type="button"]:hover{
         margin: 10px;
     }
 }
-
+ */
 
 
 @keyframes gradient {
