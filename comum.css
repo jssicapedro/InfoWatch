@@ -62,11 +62,13 @@ main{
 
 a{
     text-decoration: none;
+    border-bottom: 1px solid orange;
     color: black;
 }
 
 a::after{
     content: "\1F517";
+    border: none;
 }
 
 a:hover{

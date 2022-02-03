@@ -13,10 +13,18 @@
     width: 50%;
 }
 
-.conteudo p{
+/* .conteudo p{
     display: flex;
     align-items: center;
     height: 100%;
+} */
+
+.destaque{
+    background-color: orange;
+    font-weight: bold;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
 }
 
 iframe{
