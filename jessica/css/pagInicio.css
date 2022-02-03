@@ -7,6 +7,10 @@ button:hover{
     box-shadow: 4px 5px 4px rgb(0 0 0 / 25%);
 }
 
+a{
+    border: none!important;
+}
+
 main section a::after{
     content: none;
 }
@@ -46,6 +50,7 @@ main section a::after{
 }
 
 .conteudo-principal{
+    
     height: 60vh;
     background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url("../img/index/image20.svg");
     background-position: center;
@@ -67,9 +72,10 @@ main section a::after{
     flex-direction: column;
     margin: auto;
 }
+
 .conteudo-principal-titulo{
     font-family: 'quantium', sans-serif;
-    font-size: 40px;
+    font-size: 10em;
     margin: 0 0 5% 0;
     height: 40px;
     line-height: 40px;
@@ -77,10 +83,14 @@ main section a::after{
 }
 
 .conteudo-principal-subtitulo{
-    margin:  0 0 5% 0;
+    margin:  5px;
     text-align: center;
     font-size: 25px;
     color: #ffffff;
+}
+
+.conteudo-principal a::after{
+    content: none;
 }
 
 .conteudo-principal-btn{
@@ -94,6 +104,7 @@ main section a::after{
     font-weight: 600;
     font-size: 24px;
     padding: 0 2vw;
+    margin-top: 2%;
 }
 
 .conteudo-principal-btn:hover{
