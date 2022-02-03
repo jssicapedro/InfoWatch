@@ -164,58 +164,68 @@ main section a::after{
 section.form{
     width: 100%;
     height: 60vh;
-    color: #fff;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .part-formulario{
     display: flex;
     flex-direction: row;
+    color: #141414;
 }
 
 .part-formulario .img{
     width: 50%;
+    height: 60vh;
     background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
     background-size: 250%;
     background-position: center;
 }
 
 .formulario{ 
-    color: #e69a0c;
-    display: flex;
-    flex-direction: column;
     width: 50%;
+    height: 100%;
+    margin: 0 2%;
+}
+
+.formulario h3{
+    font-size: 2em;
 }
 
 .formulario form{
-    margin: auto;
+    margin: 45px auto;
 }
 
-.formulario textarea{
-    width: 26em;
+.formulario form div.nomemail{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
 }
 
-.formulario button{
-    border-radius: 5px;
+.mensagem{
+    width: 100%;
+    height: 84px;
 }
 
-.formulario input, .formulario select, .formulario textarea{
+.formulario input, .formulario select, .mensagem{
     border-radius: 5px;
     border: none;
-    background-color: rgba(255, 166, 0, 0.178);
+    background-color: #00000017;
+}
+
+.avaliacao {
+    margin: 35px 0!important;
 }
 
 label{
     font-weight: bold; 
-    display: inline-block;
 }
 
-input[type="text"], input[type="email"], #mensagem{
-    display: block;
+input[type="text"], input[type="email"], .mensagem{
+    display: inline;
     padding-top: 5px;
-    margin: 20px;
-    box-shadow:  3px 4px 16px 0px #ffffff80;
 }
 
 input[type="radio"]{
@@ -223,13 +233,18 @@ input[type="radio"]{
 }
 
 .deixMsg{
-    margin-top: 20px;
+    margin: 20px 0;
     display: block;
 }
 
-input:focus, #mensagem:focus{
+input:focus, .mensagem:focus{
     background: #fff;
 } 
+
+.avaliacao{
+    display: flex;
+    justify-content: space-around;
+}
 
 .nota{
     font-size: 12px;
@@ -244,8 +259,8 @@ input:focus, #mensagem:focus{
     
     display: flex;
     align-items: center;
-    margin:auto;
-    padding: 0 5%;
+    margin: 10% auto;
+    padding: 0 4%;
 }
 
 .form button:hover{
