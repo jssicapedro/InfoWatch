@@ -2,6 +2,11 @@
  
 Jéssica:
 rever listagem da página arcade
+oooouuuu
+rever ideia Sandrina img DISCORD
+
+
+cartas (img sandrina)
 
 
 

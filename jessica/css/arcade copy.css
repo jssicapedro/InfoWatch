@@ -1,0 +1,27 @@
+.banner img{
+    width: 100%;
+}
+
+.topicos{
+    width: 100%;
+}
+
+article{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background: gray;
+    display: block;
+}
+
+iframe{
+    position: absolute;
+}
+
+@media screen and (max-width:1000px){
+    
+}
+
+@media screen and (max-width:600px){
+
+}
