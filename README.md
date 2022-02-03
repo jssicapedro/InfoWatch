@@ -1,7 +1,7 @@
 # InfoWatch
  
 Jéssica:
-rever btn do formulário de avaliação
+rever listagem da página arcade
 
 
 
@@ -14,5 +14,6 @@ https://www.theenemy.com.br/pc/overwatch-60-milhoes-de-jogadores (jogadores de o
 https://www.fragster.de/br/overwatch-a-historia-completa-do-game-parte-iii/ (história)
 
 >para código:
-https://www.w3schools.com/cssref/pr_class_display.asp
+https://www.w3schools.com/cssref/pr_class_display.asp -> display
+http://penta.ufrgs.br/edu/forms/tut212.html -> selecionar apenas um input radio
 

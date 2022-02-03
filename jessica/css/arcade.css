@@ -2,15 +2,21 @@
     width: 100%;
 }
 
-.inicio{
+.informacao{
     display: flex;
     flex-direction: row;
 }
 
-.conteudo{
-    text-align: justify;
-    margin: 5% 0;
+.topicos, .conteudo{
+    text-align: left;
+    margin: 5%;
     width: 50%;
+}
+
+.conteudo p{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 iframe{

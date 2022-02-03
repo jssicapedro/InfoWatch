@@ -23,6 +23,7 @@ main section a::after{
     font-size: 3vh;
     color: black;
     margin: 5px;
+    text-align: center!important;
 }
 
 .conteudo-secundario-escrito-btn, .conteudo-terceiro-btn{
@@ -55,22 +56,29 @@ main section a::after{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20%;
+    justify-items: center;
 }
 
+
+.conteudo-principal div{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 .conteudo-principal-titulo{
     font-family: 'quantium', sans-serif;
     font-size: 40px;
-    display: flex;
-    margin-top: 3.5vh;
+    margin: 0 0 5% 0;
     height: 40px;
     line-height: 40px;
     color: white;
 }
 
 .conteudo-principal-subtitulo{
+    margin:  0 0 5% 0;
     text-align: center;
-    width: 50%;
     font-size: 25px;
     color: #ffffff;
 }
@@ -99,6 +107,7 @@ main section a::after{
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
 }
 
 .conteudo-secundario-escrito-subtitulo{
@@ -122,6 +131,7 @@ main section a::after{
     display: flex;
     background-position: center center;
     margin: 0;
+    text-align: center;
 }
 
 .conteudo-terceiro-escrito{
