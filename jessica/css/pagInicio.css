@@ -194,7 +194,7 @@ input[type="text"], input[type="email"], #mensagem{
     display: block;
     padding-top: 5px;
     margin: 20px;
-    box-shadow:  3px 4px 16px 0px #ffffff80;;
+    box-shadow:  3px 4px 16px 0px #ffffff80;
 }
 
 input[type="radio"]{
@@ -220,7 +220,11 @@ input:focus, #mensagem:focus{
     height: 50px;
     font-weight: bold;
     background-color: #ffa60062;
-    margin-left: 85%;
+    
+    display: flex;
+    align-items: center;
+    margin:auto;
+    padding: 0 5%;
 }
 
 .form button:hover{
@@ -273,6 +277,32 @@ input:focus, #mensagem:focus{
     .conteudo-terceiro-escrito-subtitulo{
         background-color: transparent;
     }
+
+    .part-formulario .img{
+        display:none;
+    }
+
+    .formulario{
+        margin: 15px;
+        width: 100%;
+    }
+
+    .part-formulario h3{
+        text-align: center;
+    }
+
+    input[type="text"], input[type="email"]{
+        display: inline;
+    }
+
+    #avaliacao{
+        display: block;
+    }
+
+    .form div button{
+        padding: 0 6%;
+    }
+
 }
 
 
