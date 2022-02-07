@@ -27,6 +27,7 @@ input[type="button"]:hover{
 
 article{
     display: flex;
+    flex-direction: row;
 }
 
 
@@ -69,8 +70,23 @@ figure{
     background-size: 100%;
 }
 
-@media (max-width:500px){
-     
+@media (max-width:750px){
+    article{
+        margin-top: 40px;
+    }
+
+    div.container{
+    margin: 2%;
+    display: inline;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    }
+
+    div#card{
+        width: 95px;
+        height: 135px;
+    }
 }
 
 
