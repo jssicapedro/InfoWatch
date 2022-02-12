@@ -1,4 +1,10 @@
+header .menu{
+    position: relative !important;
+}
+
+
 .inicio{
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -76,6 +82,10 @@ div.equipa{
 
 .tudo:hover{
     transform: scale(1.1);
+}
+
+h2{
+    text-align: center;
 }
 
 

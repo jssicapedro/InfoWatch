@@ -1,3 +1,7 @@
+header{
+    position: absolute;
+}
+
 .menu{
     border: none;
     background-color: transparent;
@@ -84,7 +88,7 @@ main section a::after{
 
 .conteudo-principal-titulo{
     font-family: 'quantium', sans-serif;
-    font-size: 10em;
+    font-size: 10rem;
     margin: 0 0 5% 0;
     height: 40px;
     line-height: 40px;
@@ -107,7 +111,7 @@ main section a::after{
     background-color: #ECD6C4;
     color: black;
     width: 33hw;
-    height: 6vh;
+    height: 10vh;
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 600;
@@ -189,7 +193,7 @@ section.form{
     width: 50%;
     height: 60vh;
     background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
-    background-size: 250%;
+    background-size: 400%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -197,7 +201,8 @@ section.form{
 .formulario{ 
     width: 50%;
     height: 100%;
-    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .formulario h3{
@@ -278,18 +283,41 @@ input:focus, .mensagem:focus{
     background-color: #ffa60093;
 }
 
+@media (max-width:1200px){
+    .conteudo-principal-titulo{
+        font-size: 8rem;
+    }
 
-@media (max-width:600px) {
+    .formulario form div.nomemail{
+        flex-direction: column;
+    }
+
+    .formulario{
+        margin: 15px;
+        width: 100%;
+    }
+
+    section.form{
+        height: 75vh;
+    }
+
+    .part-formulario .img{
+        display:none;
+    }
+}
+
+
+@media (max-width:700px) {
     .conteudo-principal, .conteudo-secundario, .conteudo-terceiro{
         text-align: center;
+        height: 50vh;
     }
 
     .conteudo-principal-titulo{
-        font-size: 20px;
+        font-size: 5rem;
     }
 
     .conteudo-principal-subtitulo{
-        margin: 0 50px;
         font-size: 18px;
     }
 
@@ -327,15 +355,6 @@ input:focus, .mensagem:focus{
 
     .conteudo-terceiro-escrito-subtitulo{
         background-color: transparent;
-    }
-
-    .part-formulario .img{
-        display:none;
-    }
-
-    .formulario{
-        margin: 15px;
-        width: 100%;
     }
 
     .part-formulario h3{

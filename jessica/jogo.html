@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="img/logotipos/InfoWatch/logo.icon" type="image/x-icon">
+    <title>Jogo</title>
 
     <link rel="stylesheet" href="css/normalize 8.0.1.css">
-    <link rel="stylesheet" href="css/arcade.css">
     <link rel="stylesheet" href="../comum.css">
     <link rel="stylesheet" href="Navbar/ava.css">
-    
-    <title>Arcade</title>
 </head>
-
 <body>
     <header>
         <nav class="menu">
             <a href="index.html"><img class="logo" src="Navbar/Image/l2_cor.png"></a>
             <ul>
-                <a href="#"><li  class="jogo">Jogo</li></a>
+                <a href="mapas.html"><li  class="jogo">Jogo</li></a>
                 <a href="eventos.html"><li class="event">Eventos/Competições</li></a>
                 <a href="sobre.html"><li class="sobre">Sobre</li></a>
                 <a href="../cartas/jogocartas.html"><li class="premio">Ganha Premios</li></a>
@@ -33,44 +27,22 @@
             <img class="icon" src="Navbar/Image/icon_hamburguer.png" onclick="myFunction()">
             <div id="links">
                 <ul>
-                    <a href="#"><li  id="jogo">Jogo</li></a>
-                    <a href="eventos.html"><li id="event">Eventos/Competições</li></a>
-                    <a href="sobre.html"><li id="sobre">Sobre</li></a>
-                    <a href="../cartas/jogocartas.html"><li id="premio">Ganha Premios</li></a>
+                    <a href="mapas.html"><li  id="jogo">Jogo</li></a>
+                    <a href="eventos.html"><li class="event">Eventos/Competições</li></a>
+                    <a href="sobre.html"><li class="sobre">Sobre</li></a>
+                    <a href="../cartas/jogocartas.html"><li class="premio">Ganha Premios</li></a>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="banner">
-        <img src="img/arcade/arcadeBanner1.png" alt="slide" id="banner">
-    </div>
     <main>
-        <h1>Arcade</h1>
-        <p>O Arcade permite que os jogadores escolham uma variedade de modos de jogo, mapas e regras rotativos
-            que não
-            se adequam ao Jogo Rápido ou Jogo Competitivo. Seja um duelo 1v1 ou confrontos 3v3, ou seleções
-            diferentes
-            de contendas (que incluem regras especiais como "sem troca de heróis”), você não terá problema para
-            encontrar um jogo para se divertir.</p>
-        <div class="modos">
-            <div class="divisao">
-                <div class="linha">
-                    <img src="img/arcade/jogo_rapido.jpg" alt="arcade modo duelo">
-                    <img src="img/arcade/eliminacao.jpg" alt="arcade modo duelo">
-                </div>
-
-                <div class="linha">
-                    <img src="img/arcade/herois misteriosos.jpg" alt="arcade modo duelo">
-                    <img src="img/arcade/sem _imite.jpg" alt="arcade modo duelo">
-                </div>
-            </div>
-        </div>
-
-        <p class="saber_mais">Saiba mais <span><a href="https://www.techtudo.com.br/noticias/2016/11/aprenda-como-jogar-o-modo-arcade-nova-modalidade-de-overwatch.ghtml" target="_blank"> aqui </a></span></p>
-
-        <p class="destaque"> Junta o teu grupo e mergulha de cabeça.</p>
+        <ul>
+            <li><a style="border:none;" href="historia.html">História do Jogo</a></li>
+            <li><a style="border:none;" href="#">Modos</a></li>
+            <li><a style="border:none;" href="#">Mapas</a></li>
+            <li><a style="border:none;" href="#">Ranks</a></li>
+        </ul>
     </main>
-
     <footer>
         <table>
             <tr>
@@ -100,9 +72,7 @@
         </table>
     </footer>
 
-
-    <script src="js/slider.js"></script>
+    
     <script src="Navbar/funcoes.js"></script>
 </body>
-
 </html>

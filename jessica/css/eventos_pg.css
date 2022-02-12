@@ -1,3 +1,7 @@
+body{
+    position: absolute;
+}
+
 .box-gray{
     position: absolute;
     left: 50%;

@@ -1,3 +1,11 @@
+header .menu{
+    position: relative !important;
+}
+
+footer{
+    position: absolute;
+}
+
 a{
     border-bottom: 1px solid orange;
 }
@@ -135,24 +143,23 @@ article table#extra tr td p a{
     }
 
     .sobre_mim{
-        margin: 0 0 20px 0px;
         width: 100%;
         height: 180px;
         background-color: grey;
     }
 
     #imgPessoal{
-        margin: 20px;
-        position: absolute;
+        position: relative;
     }
 
     #imgPessoal img{
+        position: absolute;
         display: flex;
-        width: 80%;
-        height: 215px;
+        width: 90%;
+        height: 250px;
         object-fit: cover;
-        object-position: 0px -223px;
-        margin: 0 8%;
+        object-position: 0px -150px;
+        margin: 0 5%;
     }
 
     article{
@@ -160,11 +167,11 @@ article table#extra tr td p a{
         display: inline-block;
     }
     
-    article p, table{
+    article p, article table{
         font-size: 10pt;
     }
     
-    table{
+    article table{
         width: 100%;
     }
 
@@ -215,12 +222,14 @@ article table#extra tr td p a{
 }
 
 
-@media (max-width:500px){
+/* @media (max-width:500px){
+    
+
     #imgPessoal img{
-        width: 85%;
-        height: 206px;
+        width: 100%;
+        height: 250px;
         object-fit: cover;
         object-position: 0px -100px;
         margin: 0;
     }
-}
+} */
