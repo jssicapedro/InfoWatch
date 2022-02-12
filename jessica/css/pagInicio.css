@@ -1,3 +1,14 @@
+.menu{
+    border: none;
+    background-color: transparent;
+}
+
+.menu ul li{
+    color: #fff!important;
+}
+
+
+
 button{
     cursor: pointer;
 }
@@ -50,14 +61,12 @@ main section a::after{
 }
 
 .conteudo-principal{
-    
-    height: 60vh;
+    height: 90vh;
     background-image: linear-gradient(#9b9677c7,rgb(0 0 0 / 61%)), url("../img/index/image20.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,10 +148,11 @@ main section a::after{
 
 .conteudo-terceiro{
     background-image: url("../img/index/4.svg");
-    display: flex;
+    background-repeat: no-repeat;
     background-position: center center;
     margin: 0;
     text-align: center;
+    display: flex;
 }
 
 .conteudo-terceiro-escrito{
@@ -181,6 +191,7 @@ section.form{
     background: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/zk/ZKW68AZHMHFB1583430426829.png");
     background-size: 250%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .formulario{ 
@@ -273,9 +284,13 @@ input:focus, .mensagem:focus{
         text-align: center;
     }
 
+    .conteudo-principal-titulo{
+        font-size: 20px;
+    }
+
     .conteudo-principal-subtitulo{
         margin: 0 50px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .conteudo-principal-btn{
