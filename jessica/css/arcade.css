@@ -57,6 +57,7 @@ p{
 
 
 @media screen and (max-width:600px){
+
     p{
         line-height: 25px;
     }

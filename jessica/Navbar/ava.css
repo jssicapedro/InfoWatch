@@ -1,13 +1,11 @@
 
-nav{/* 
-    margin-top: 15px; */
+nav{
+    margin-top: 15px;
     height: 80px;
     background-color: #ffffff;
     border: .5px solid #ffffff;
     border-radius: 12px;
     position: absolute;
-    display: flex;
-    margin: auto;
     width: 99.9%;
     z-index: 1;
 }
