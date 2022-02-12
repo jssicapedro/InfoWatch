@@ -1,0 +1,197 @@
+
+nav{/* 
+    margin-top: 15px; */
+    height: 80px;
+    background-color: #ffffff;
+    border: .5px solid #ffffff;
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 99.9%;
+    z-index: 1;
+}
+
+nav.hambu, #Links {
+    display: none;
+    visibility: hidden;
+}
+
+.menu img.logo{
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    float: left;
+    height: 80px;
+    width: 140px;
+    left: 5%;
+    margin: 0;
+}
+
+.hambu img.logohamburguer{
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    float: left;
+    height: 80px;
+    width: 140px;
+    left: 5%;
+    margin: 0;
+}
+
+nav.menu ul{
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+}
+
+nav.menu ul li{
+    display: inline;
+    padding: 0px 2%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav.menu ul a{
+    text-decoration: none;
+    border: none;
+}
+
+a::after{
+    content: none;
+}
+
+nav.menu ul li:hover{
+    color: rgb(249,158,26);
+    text-shadow: .5px .5px 1px #0000008f;
+}
+
+nav.menu div#menu img{
+    display: none;
+}
+
+/* -------------------- footer ------------------------- */
+
+footer{
+    width: 100%;
+    display: block;
+    background-color: black;
+    padding-bottom: 1%;
+    height: 100px;
+}
+
+table{
+    color: white;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+table tr td{
+    text-align: center;
+    font-size: 8pt;
+    text-indent: 3px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------- media ----------------- */
+
+@media (max-width:500px) {
+    nav.menu{
+        display: none;
+        visibility: hidden;
+    }
+
+    #links{
+        display: none;
+    }
+    
+    .hambu img.logo{
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        float: left;
+        height: auto;
+        width: 120px;
+        top: 3%
+    }
+
+    nav.hambu{
+        display: block;
+        visibility: visible;
+        margin-top: 15px;
+        height: 80px;
+        width: auto;
+        background-color: #ffffff;
+        border: .5px solid #ffffff;
+        border-radius: 12px;
+    }
+
+    nav.hambu ul{
+        display: block;
+        position: absolute;
+        float: left;
+        margin-top: 80px;
+        width: 420px;
+        height: 35px;
+        line-height: 35px;
+        list-style: none;
+    }
+    
+    nav.hambu ul li{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-decoration: none;
+        text-align: right;
+        font-size: 10pt;
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+
+    nav.hambu ul li#jogo, #perso, #event, #sobre, #premio{
+        background-color: #fafafad0;
+        border-radius: 3px;
+        margin-left: 235px;
+    }
+
+    nav.hambu a{
+        text-decoration: none;        
+    }
+    
+    nav.hambu ul li:hover{
+        color: rgb(249,158,26);
+        text-shadow: .5px .5px 1px #0000008f;
+    }
+    
+    img.icon{
+        visibility: visible;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        float: left;
+        height: auto;
+        width: 56px;
+        margin-top: 10px;
+        margin-left: 82%;
+    }
+
+    /* -------------------- footer ------------------------- */
+    section{
+        margin-top: 95%;
+    }
+   
+    table{
+        width: 480px;
+        padding-left: 10px;
+    }
+    
+    table tr td{
+        font-size: 7pt;
+        padding-bottom: 5px;
+    }
+}
