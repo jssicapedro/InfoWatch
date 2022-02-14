@@ -1,7 +1,6 @@
 # InfoWatch
  
 Jéssica:
-titulo index
 mudar tipo de letra para 
 https://fonts.google.com/specimen/Black+Ops+One?category=Sans+Serif,Display&stylecount=1&preview.text=Página%20inicial&preview.text_type=custom
 

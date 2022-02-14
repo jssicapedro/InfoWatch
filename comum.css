@@ -9,9 +9,11 @@
 }
 
 :root{
-    --TodosTitulos: 1.5em quantium, sans-serif;
-    --TodosSubTitulos: 1.2em quantium, sans-serif;
-    --TodosSubSubTitulos: 1.1em quantium, sans-serif;
+    --TodosTitulos: 1.5em 'Black Ops One', cursive;
+    --TodosSubTitulos: 1.2em 'Black Ops One', cursive;
+    --TodosSubSubTitulos: 1.1em 'Black Ops One', cursive;
+    
+
     --texto: 1em 'Roboto', sans-serif;
     --fundo: #0636d318;
     --linkHover: rgb(214, 143, 10);
