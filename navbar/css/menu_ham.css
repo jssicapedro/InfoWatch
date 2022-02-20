@@ -1,0 +1,112 @@
+  nav{
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+    z-index: 1;
+    right:0px;
+    margin: 0px;
+  }
+  #menu{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.81);
+  }
+  #menulogotipo{
+    margin-top: 17px;
+    width: 150px;
+    margin-left: 40px;
+    margin-bottom: 7vw;
+  }
+  .menudrop{
+  display:block;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  font-size: 1.5vw;
+  background-color: rgba(0, 0, 0, 0.02);
+  }
+  .menubotao{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 2vw;
+  }
+  .menudrop-opcao{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .menudrop-opcao a{
+    padding: 10px 0px;
+    display: block;
+    color: rgba(255, 255, 255, 0.80);
+  }
+  .menudrop:hover .menudrop-opcao{
+    display: block;
+  }
+  .menudrop-opcao a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+.menuicon {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    float:right;
+    right:0;
+    top:30px;
+    margin-right: 5%;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 10px;
+  }
+  .barra1, .barra2, .barra3 {
+    width: 40px;
+    height: 6px;
+    background-color: rgb(31, 31, 31);
+    margin: 5px 10px;
+    transition: 0.4s;
+    border-radius: 20%;
+  
+  }
+  .barra1{
+    margin-top: 14px;
+  } 
+  .mexerIcon .barra1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .mexerIcon .barra2 {opacity: 0;}
+  
+  .mexerIcon .barra3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+@media screen and (max-width:1000px){
+
+    nav{
+      width: 40vw;
+    }
+
+    #menulogotipo{
+      margin-left: 0px;
+    }
+  }
+
+@media screen and (max-width:500px){
+  .menubotao{
+    font-size: 3vw
+  }
+  .menudrop{
+    font-size: 3vw;
+  }
+  #menulogotipo{
+    width: 100px;
+  }
+  nav{
+    width: 100vw;
+  }
+}
